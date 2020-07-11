@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Player_movement : MonoBehaviour
 {
@@ -59,5 +60,8 @@ public class Player_movement : MonoBehaviour
 
 
        controller.Move(move);
-  }
+
+        
+    }
+
 }
