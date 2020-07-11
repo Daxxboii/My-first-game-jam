@@ -48,7 +48,7 @@ public class Player_movement : MonoBehaviour
 
 
       //Jump
-      if(Is_Grounded && Input.GetButtonDown("Jump")){
+      if(Is_Grounded && Input.GetButton("Jump")){
         move.y = Mathf.Sqrt(move_details.Jump_force * move_details.Down_force * gravity);
         //Debug.Log("JUMP");
       }
