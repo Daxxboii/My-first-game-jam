@@ -12,5 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1cf27bf5c971d324aa5716a5f505271f, type: 3}
   m_Name: Default
   m_EditorClassIdentifier: 
-  speed: 15
-  gravity: -9.8
+  speed: 1
+  Down_force: -0.1
+  Jump_force: 2
