@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="135">
+	<RootPaths>
+		<ProjectRoot>/Users/ivanbeltran/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Documents/Spring_2020/Videogames/MyFirstGameJam/My first game jam_WwiseProject/</ProjectRoot>
+		<SourceFilesRoot>/Users/ivanbeltran/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Documents/Spring_2020/Videogames/MyFirstGameJam/My first game jam_WwiseProject/.cache/Windows/</SourceFilesRoot>
+		<SoundBanksRoot>/Users/ivanbeltran/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Documents/GitHub/My-first-game-jam/My first game jam/Assets/StreamingAssets/Audio/GeneratedSoundBanks/Windows/</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>/Users/ivanbeltran/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Documents/Spring_2020/Videogames/MyFirstGameJam/My first game jam_WwiseProject/GeneratedSoundBanks/Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="3991942870" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\Music</ObjectPath>
+			<ShortName>Music</ShortName>
+			<Path>Music.bnk</Path>
+			<IncludedEvents>
+				<Event Id="3991942870" Name="Music" ObjectPath="\Events\Default Work Unit\Music\Music" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="22042175" Language="SFX">
+							<ShortName>Level 1 Intro - Default\MFGJ_Intro_Strings_140bpm_4-4_L16M-P1.wav</ShortName>
+							<Path>SFX/Level 1 Intro - Default/MFGJ_Intro_Strings_140bpm_4-4_L16M-P1_C58ED28F.wem</Path>
+						</File>
+						<File Id="102475099" Language="SFX">
+							<ShortName>Level 1 Intro - Default\MFGJ_Intro_Bass-Piano-1_140bpm_4-4_L16M-P1.wav</ShortName>
+							<Path>SFX/Level 1 Intro - Default/MFGJ_Intro_Bass-Piano-1_140bpm_4-4_L16M-P1_C58ED28F.wem</Path>
+						</File>
+						<File Id="164714814" Language="SFX">
+							<ShortName>Level 1 Intro - Default\MFGJ_Intro_Bass-Melody2Cello_140bpm_4-4_L16M-P1.wav</ShortName>
+							<Path>SFX/Level 1 Intro - Default/MFGJ_Intro_Bass-Melody2Cello_140bpm_4-4_L16M-P1_C58ED28F.wem</Path>
+						</File>
+						<File Id="181876398" Language="SFX">
+							<ShortName>MFGJ_Level1-ThemeHorns2 Guitar_140bpm_4-4_L16M.wav</ShortName>
+							<Path>SFX/MFGJ_Level1-ThemeHorns2 Guitar_140bpm_4-4_L16M_C58ED28F.wem</Path>
+						</File>
+						<File Id="184892434" Language="SFX">
+							<ShortName>Level 1 Intro - Default\MFGJ_Intro_Hi-Hat_140bpm_4-4_L16M-P1.wav</ShortName>
+							<Path>SFX/Level 1 Intro - Default/MFGJ_Intro_Hi-Hat_140bpm_4-4_L16M-P1_C58ED28F.wem</Path>
+						</File>
+						<File Id="203273766" Language="SFX">
+							<ShortName>Level 1 Intro - Default\MFGJ_Intro_HighStrings_140bpm_4-4_L16M-P1.wav</ShortName>
+							<Path>SFX/Level 1 Intro - Default/MFGJ_Intro_HighStrings_140bpm_4-4_L16M-P1_C58ED28F.wem</Path>
+						</File>
+						<File Id="219905661" Language="SFX">
+							<ShortName>Level 1 Intro - Default\MFGJ_Intro_Percussions_140bpm_4-4_L16M-P1.wav</ShortName>
+							<Path>SFX/Level 1 Intro - Default/MFGJ_Intro_Percussions_140bpm_4-4_L16M-P1_C58ED28F.wem</Path>
+						</File>
+						<File Id="251857416" Language="SFX">
+							<ShortName>MFGJ_Level1-Theme_ELGuitRhy_140bpm_4-4_L16M.wav</ShortName>
+							<Path>SFX/MFGJ_Level1-Theme_ELGuitRhy_140bpm_4-4_L16M_C58ED28F.wem</Path>
+						</File>
+						<File Id="393409215" Language="SFX">
+							<ShortName>MFGJ_Level1-Theme_Bass2_140bpm_4-4_L16M.wav</ShortName>
+							<Path>SFX/MFGJ_Level1-Theme_Bass2_140bpm_4-4_L16M_C58ED28F.wem</Path>
+						</File>
+						<File Id="413411375" Language="SFX">
+							<ShortName>Level 1 Intro - Default\MFGJ_Intro_CymbalRoll_140bpm_4-4_L16M-P1.wav</ShortName>
+							<Path>SFX/Level 1 Intro - Default/MFGJ_Intro_CymbalRoll_140bpm_4-4_L16M-P1_C58ED28F.wem</Path>
+						</File>
+						<File Id="557830291" Language="SFX">
+							<ShortName>MFGJ_Level1-Theme_Melody2 Guitar_140bpm_4-4_L16M.wav</ShortName>
+							<Path>SFX/MFGJ_Level1-Theme_Melody2 Guitar_140bpm_4-4_L16M_C58ED28F.wem</Path>
+						</File>
+						<File Id="563237908" Language="SFX">
+							<ShortName>MFGJ_Level1-Theme_Bass3_140bpm_4-4_L16M.wav</ShortName>
+							<Path>SFX/MFGJ_Level1-Theme_Bass3_140bpm_4-4_L16M_C58ED28F.wem</Path>
+						</File>
+						<File Id="585824621" Language="SFX">
+							<ShortName>MFGJ_Level1-Theme_BassPno_140bpm_4-4_L16M.wav</ShortName>
+							<Path>SFX/MFGJ_Level1-Theme_BassPno_140bpm_4-4_L16M_C58ED28F.wem</Path>
+						</File>
+						<File Id="637320628" Language="SFX">
+							<ShortName>Level 1 Intro - Default\MFGJ_Intro_Horns_140bpm_4-4_L16M-P1.wav</ShortName>
+							<Path>SFX/Level 1 Intro - Default/MFGJ_Intro_Horns_140bpm_4-4_L16M-P1_C58ED28F.wem</Path>
+						</File>
+						<File Id="720227554" Language="SFX">
+							<ShortName>Level 1 Intro - Default\MFGJ_Intro_Bass-Melody1FireFlies_140bpm_4-4_L8M.wav</ShortName>
+							<Path>SFX/Level 1 Intro - Default/MFGJ_Intro_Bass-Melody1FireFlies_140bpm_4-4_L8M_C58ED28F.wem</Path>
+						</File>
+						<File Id="771319346" Language="SFX">
+							<ShortName>MFGJ_Level1-Theme_Bass_140bpm_4-4_L16M.wav</ShortName>
+							<Path>SFX/MFGJ_Level1-Theme_Bass_140bpm_4-4_L16M_C58ED28F.wem</Path>
+						</File>
+						<File Id="833433290" Language="SFX">
+							<ShortName>Level 1 Intro - Default\MFGJ_Intro_Celli_140bpm_4-4_L16M-P1.wav</ShortName>
+							<Path>SFX/Level 1 Intro - Default/MFGJ_Intro_Celli_140bpm_4-4_L16M-P1_C58ED28F.wem</Path>
+						</File>
+						<File Id="863391658" Language="SFX">
+							<ShortName>Level 1 Intro - Default\MFGJ_Intro_Shaker_140bpm_4-4_L16M-P1.wav</ShortName>
+							<Path>SFX/Level 1 Intro - Default/MFGJ_Intro_Shaker_140bpm_4-4_L16M-P1_C58ED28F.wem</Path>
+						</File>
+						<File Id="940831556" Language="SFX">
+							<ShortName>MFGJ_Level1-Theme_MarcStrgs_140bpm_4-4_L16M.wav</ShortName>
+							<Path>SFX/MFGJ_Level1-Theme_MarcStrgs_140bpm_4-4_L16M_C58ED28F.wem</Path>
+						</File>
+						<File Id="952838122" Language="SFX">
+							<ShortName>Level 1 Intro - Default\MFGJ_Intro_Celli+DB_140bpm_4-4_L16M-P1.wav</ShortName>
+							<Path>SFX/Level 1 Intro - Default/MFGJ_Intro_Celli+DB_140bpm_4-4_L16M-P1_C58ED28F.wem</Path>
+						</File>
+						<File Id="962149203" Language="SFX">
+							<ShortName>Level 1 Intro - Default\MFGJ_Intro_Bass-Melody3Synth_140bpm_4-4_L16M-P1.wav</ShortName>
+							<Path>SFX/Level 1 Intro - Default/MFGJ_Intro_Bass-Melody3Synth_140bpm_4-4_L16M-P1_C58ED28F.wem</Path>
+						</File>
+						<File Id="1005906371" Language="SFX">
+							<ShortName>Level 1 Intro - Default\MFGJ_Intro_Bass-Piano-2_140bpm_4-4_L16M-P1.wav</ShortName>
+							<Path>SFX/Level 1 Intro - Default/MFGJ_Intro_Bass-Piano-2_140bpm_4-4_L16M-P1_C58ED28F.wem</Path>
+						</File>
+						<File Id="1006991332" Language="SFX">
+							<ShortName>Level 1 Intro - Default\MFGJ_Intro_Celli+DB+SB_140bpm_4-4_L16M-P1.wav</ShortName>
+							<Path>SFX/Level 1 Intro - Default/MFGJ_Intro_Celli+DB+SB_140bpm_4-4_L16M-P1_C58ED28F.wem</Path>
+						</File>
+						<File Id="1012238876" Language="SFX">
+							<ShortName>MFGJ_Level1-Bridge_140bpm_4-4_L16M.wav</ShortName>
+							<Path>SFX/MFGJ_Level1-Bridge_140bpm_4-4_L16M_C58ED28F.wem</Path>
+						</File>
+						<File Id="1046303069" Language="SFX">
+							<ShortName>MFGJ_Level1-Theme_MelodyCelli_140bpm_4-4_L16M.wav</ShortName>
+							<Path>SFX/MFGJ_Level1-Theme_MelodyCelli_140bpm_4-4_L16M_C58ED28F.wem</Path>
+						</File>
+						<File Id="1063155371" Language="SFX">
+							<ShortName>MFGJ_Level1-Theme_Melody1 Brass_140bpm_4-4_L16M.wav</ShortName>
+							<Path>SFX/MFGJ_Level1-Theme_Melody1 Brass_140bpm_4-4_L16M_C58ED28F.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

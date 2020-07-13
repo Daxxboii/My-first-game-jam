@@ -1,0 +1,145 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41298200e170c4fe18424590620b6e3c, type: 3}
+  m_Name: AkWwiseProjectData
+  m_EditorClassIdentifier: 
+  AcousticTextureWwu:
+  - PhysicalPath: Virtual Acoustics/Default Work Unit.wwu
+    ParentPath: Default Work Unit
+    guid: 30f9e33df763ee4c9906bea2d618f490
+    GuidInternal: 
+    m_lastTime: -8586069835534775808
+    List: []
+  AuxBusWwu:
+  - PhysicalPath: Master-Mixer Hierarchy/Default Work Unit.wwu
+    ParentPath: Default Work Unit
+    guid: 8a016db880f2f145b17396d6608d628f
+    GuidInternal: 
+    m_lastTime: -8586069835534775808
+    List:
+    - name: Master Audio Bus
+      guid: d8a41415a61d2a41a17e75ca0c2149f3
+      id: 3803692087
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+      Path: Default Work Unit/Master Audio Bus
+  BankWwu:
+  - PhysicalPath: SoundBanks/Default Work Unit.wwu
+    ParentPath: Default Work Unit
+    guid: 6e4296edd05357438498712ad2d03d23
+    GuidInternal: 
+    m_lastTime: -8586069345464775808
+    List:
+    - name: Music
+      guid: 4e069610d98dc243b537bf5341449829
+      id: 3991942870
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Music
+        ObjectType: 7
+      Path: Default Work Unit/Music
+  EventWwu:
+  - PhysicalPath: Events/Default Work Unit.wwu
+    ParentPath: Default Work Unit
+    guid: e530b43f21a3eb4cbb0d79ea5c1a8552
+    GuidInternal: 
+    m_lastTime: -8586069388764775808
+    List: []
+  - PhysicalPath: Events/Music.wwu
+    ParentPath: Default Work Unit/Music
+    guid: 279369222fcd7c4286bdf9cdff023ff0
+    GuidInternal: 
+    m_lastTime: -8586069353834775808
+    List:
+    - name: Music
+      guid: 3a452c017991a14d90b91d13aa6e7be7
+      id: 3991942870
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Music
+        ObjectType: 12
+      - ElementName: Music
+        ObjectType: 3
+      Path: Default Work Unit/Music/Music
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+  RtpcWwu:
+  - PhysicalPath: Game Parameters/Default Work Unit.wwu
+    ParentPath: Default Work Unit
+    guid: d238d31646623c4d9b38828ad48a01c1
+    GuidInternal: 
+    m_lastTime: -8586069835534775808
+    List: []
+  StateWwu:
+  - PhysicalPath: States/Default Work Unit.wwu
+    ParentPath: Default Work Unit
+    guid: a5d151c23ed2374c9ba0b0aa67e157c5
+    GuidInternal: 
+    m_lastTime: -8586069388764775808
+    List: []
+  - PhysicalPath: States/MusicStates.wwu
+    ParentPath: Default Work Unit/MusicStates
+    guid: 113ec584a0c85844a1f6dc2b4a0ce63d
+    GuidInternal: 
+    m_lastTime: -8586069388764775808
+    List:
+    - name: Music_Levels
+      guid: 2e045f26c4c8c5449409470d0eb59662
+      id: 2209143460
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: MusicStates
+        ObjectType: 12
+      - ElementName: Music_Levels
+        ObjectType: 9
+      Path: Default Work Unit/MusicStates/Music_Levels
+      values:
+      - name: Level_1
+        guid: 4f1872a73e984045b5494517ccd97205
+        id: 1290008369
+        PathAndIcons:
+        - ElementName: Level_1
+          ObjectType: 8
+      - name: None
+        guid: fa45673a59064d4ca5195bbce3a7615f
+        id: 748895195
+        PathAndIcons:
+        - ElementName: None
+          ObjectType: 8
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+  SwitchWwu:
+  - PhysicalPath: Switches/Default Work Unit.wwu
+    ParentPath: Default Work Unit
+    guid: 5c41542ecff0db4b8d6d4b6c06dbf418
+    GuidInternal: 
+    m_lastTime: -8586069835534775808
+    List: []
+  TriggerWwu:
+  - PhysicalPath: Triggers/Default Work Unit.wwu
+    ParentPath: Default Work Unit
+    guid: be7c5e0b9ca32f47bb4a647a846b0f4b
+    GuidInternal: 
+    m_lastTime: -8586069835534775808
+    List: []
+  ExpandedItems:
+  - /My first game jam_WwiseProject
+  autoPopulateEnabled: 1
+  CurrentPluginConfig: 
