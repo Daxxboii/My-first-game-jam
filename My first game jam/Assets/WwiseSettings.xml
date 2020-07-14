@@ -7,7 +7,7 @@
   <GenerateSoundBanksAsPreBuildStep>false</GenerateSoundBanksAsPreBuildStep>
   <ShowMissingRigidBodyWarning>true</ShowMissingRigidBodyWarning>
   <ShowSpatialAudioWarningMsg>true</ShowSpatialAudioWarningMsg>
-  <SoundbankPath>Audio/GeneratedSoundBanks/Mac</SoundbankPath>
+  <SoundbankPath>Audio/GeneratedSoundBanks</SoundbankPath>
   <WwiseInstallationPathMac>/Applications/Audiokinetic/Wwise 2019.2.3.7304/Wwise.app</WwiseInstallationPathMac>
   <WwiseInstallationPathWindows />
   <WwiseProjectPath>../../../../Spring_2020/Videogames/MyFirstGameJam/My first game jam_WwiseProject/My first game jam_WwiseProject.wproj</WwiseProjectPath>

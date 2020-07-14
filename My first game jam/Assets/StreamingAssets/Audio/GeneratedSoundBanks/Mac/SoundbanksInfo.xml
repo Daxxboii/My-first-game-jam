@@ -43,10 +43,6 @@
 							<ShortName>Level 1 Intro - Default\MFGJ_Intro_Hi-Hat_140bpm_4-4_L16M-P1.wav</ShortName>
 							<Path>SFX/Level 1 Intro - Default/MFGJ_Intro_Hi-Hat_140bpm_4-4_L16M-P1_C58ED28F.wem</Path>
 						</File>
-						<File Id="203273766" Language="SFX">
-							<ShortName>Level 1 Intro - Default\MFGJ_Intro_HighStrings_140bpm_4-4_L16M-P1.wav</ShortName>
-							<Path>SFX/Level 1 Intro - Default/MFGJ_Intro_HighStrings_140bpm_4-4_L16M-P1_C58ED28F.wem</Path>
-						</File>
 						<File Id="219905661" Language="SFX">
 							<ShortName>Level 1 Intro - Default\MFGJ_Intro_Percussions_140bpm_4-4_L16M-P1.wav</ShortName>
 							<Path>SFX/Level 1 Intro - Default/MFGJ_Intro_Percussions_140bpm_4-4_L16M-P1_C58ED28F.wem</Path>
@@ -55,25 +51,33 @@
 							<ShortName>MFGJ_Level1-Theme_ELGuitRhy_140bpm_4-4_L16M.wav</ShortName>
 							<Path>SFX/MFGJ_Level1-Theme_ELGuitRhy_140bpm_4-4_L16M_C58ED28F.wem</Path>
 						</File>
+						<File Id="252548970" Language="SFX">
+							<ShortName>Level 1 Intro - Default\MFGJ_Intro_HighStrings_140bpm_4-4_L16M-P1.wav</ShortName>
+							<Path>SFX/Level 1 Intro - Default/MFGJ_Intro_HighStrings_140bpm_4-4_L16M-P1_33DDF687.wem</Path>
+						</File>
 						<File Id="393409215" Language="SFX">
 							<ShortName>MFGJ_Level1-Theme_Bass2_140bpm_4-4_L16M.wav</ShortName>
-							<Path>SFX/MFGJ_Level1-Theme_Bass2_140bpm_4-4_L16M_C58ED28F.wem</Path>
+							<Path>SFX/MFGJ_Level1-Theme_Bass2_140bpm_4-4_L16M_FCA1C42F.wem</Path>
 						</File>
 						<File Id="413411375" Language="SFX">
 							<ShortName>Level 1 Intro - Default\MFGJ_Intro_CymbalRoll_140bpm_4-4_L16M-P1.wav</ShortName>
-							<Path>SFX/Level 1 Intro - Default/MFGJ_Intro_CymbalRoll_140bpm_4-4_L16M-P1_C58ED28F.wem</Path>
+							<Path>SFX/Level 1 Intro - Default/MFGJ_Intro_CymbalRoll_140bpm_4-4_L16M-P1_33DDF687.wem</Path>
+						</File>
+						<File Id="556983877" Language="SFX">
+							<ShortName>Level 1 Intro - Default\MFGJ_Intro_HighStrings_140bpm_4-4_L16M-P1.wav</ShortName>
+							<Path>SFX/Level 1 Intro - Default/MFGJ_Intro_HighStrings_140bpm_4-4_L16M-P1_FCA1C42F.wem</Path>
 						</File>
 						<File Id="557830291" Language="SFX">
 							<ShortName>MFGJ_Level1-Theme_Melody2 Guitar_140bpm_4-4_L16M.wav</ShortName>
-							<Path>SFX/MFGJ_Level1-Theme_Melody2 Guitar_140bpm_4-4_L16M_C58ED28F.wem</Path>
+							<Path>SFX/MFGJ_Level1-Theme_Melody2 Guitar_140bpm_4-4_L16M_33DDF687.wem</Path>
 						</File>
 						<File Id="563237908" Language="SFX">
 							<ShortName>MFGJ_Level1-Theme_Bass3_140bpm_4-4_L16M.wav</ShortName>
-							<Path>SFX/MFGJ_Level1-Theme_Bass3_140bpm_4-4_L16M_C58ED28F.wem</Path>
+							<Path>SFX/MFGJ_Level1-Theme_Bass3_140bpm_4-4_L16M_FCA1C42F.wem</Path>
 						</File>
 						<File Id="585824621" Language="SFX">
 							<ShortName>MFGJ_Level1-Theme_BassPno_140bpm_4-4_L16M.wav</ShortName>
-							<Path>SFX/MFGJ_Level1-Theme_BassPno_140bpm_4-4_L16M_C58ED28F.wem</Path>
+							<Path>SFX/MFGJ_Level1-Theme_BassPno_140bpm_4-4_L16M_FCA1C42F.wem</Path>
 						</File>
 						<File Id="637320628" Language="SFX">
 							<ShortName>Level 1 Intro - Default\MFGJ_Intro_Horns_140bpm_4-4_L16M-P1.wav</ShortName>
@@ -85,7 +89,7 @@
 						</File>
 						<File Id="771319346" Language="SFX">
 							<ShortName>MFGJ_Level1-Theme_Bass_140bpm_4-4_L16M.wav</ShortName>
-							<Path>SFX/MFGJ_Level1-Theme_Bass_140bpm_4-4_L16M_C58ED28F.wem</Path>
+							<Path>SFX/MFGJ_Level1-Theme_Bass_140bpm_4-4_L16M_FCA1C42F.wem</Path>
 						</File>
 						<File Id="833433290" Language="SFX">
 							<ShortName>Level 1 Intro - Default\MFGJ_Intro_Celli_140bpm_4-4_L16M-P1.wav</ShortName>
@@ -107,6 +111,10 @@
 							<ShortName>Level 1 Intro - Default\MFGJ_Intro_Bass-Melody3Synth_140bpm_4-4_L16M-P1.wav</ShortName>
 							<Path>SFX/Level 1 Intro - Default/MFGJ_Intro_Bass-Melody3Synth_140bpm_4-4_L16M-P1_C58ED28F.wem</Path>
 						</File>
+						<File Id="966017587" Language="SFX">
+							<ShortName>Level 1 Intro - Default\MFGJ_Intro_CymbalRoll_140bpm_4-4_L16M-P1.wav</ShortName>
+							<Path>SFX/Level 1 Intro - Default/MFGJ_Intro_CymbalRoll_140bpm_4-4_L16M-P1_275D7200.wem</Path>
+						</File>
 						<File Id="1005906371" Language="SFX">
 							<ShortName>Level 1 Intro - Default\MFGJ_Intro_Bass-Piano-2_140bpm_4-4_L16M-P1.wav</ShortName>
 							<Path>SFX/Level 1 Intro - Default/MFGJ_Intro_Bass-Piano-2_140bpm_4-4_L16M-P1_C58ED28F.wem</Path>
@@ -121,7 +129,7 @@
 						</File>
 						<File Id="1046303069" Language="SFX">
 							<ShortName>MFGJ_Level1-Theme_MelodyCelli_140bpm_4-4_L16M.wav</ShortName>
-							<Path>SFX/MFGJ_Level1-Theme_MelodyCelli_140bpm_4-4_L16M_C58ED28F.wem</Path>
+							<Path>SFX/MFGJ_Level1-Theme_MelodyCelli_140bpm_4-4_L16M_33DDF687.wem</Path>
 						</File>
 						<File Id="1063155371" Language="SFX">
 							<ShortName>MFGJ_Level1-Theme_Melody1 Brass_140bpm_4-4_L16M.wav</ShortName>
