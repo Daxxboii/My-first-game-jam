@@ -41,9 +41,9 @@ public class Manager_script : MonoBehaviour
     //End_Game or Repawn
     public void End_Game()
     {
-        if (Game_Ended == false)
+        if (Game_Ended == true)
         {
-          // later to end the game      Game_Ended = true;
+              Game_Ended = false;
             Restart();
         }
     }
