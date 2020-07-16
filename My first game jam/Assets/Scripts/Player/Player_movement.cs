@@ -63,7 +63,7 @@ public class Player_movement : MonoBehaviour
         //Crouch
         if (Input.GetKey("c") || Input.GetKey(KeyCode.LeftControl) || Input.GetKey(KeyCode.RightControl))
         {
-            Crouch.height = 0.1f;
+            Crouch.height = move_details.Crouch_height;
         }
         else
         {
