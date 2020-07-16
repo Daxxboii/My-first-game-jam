@@ -13,6 +13,8 @@ public class Manager_script : MonoBehaviour
     private Rewind rewind;
     private Player_movement move;
 
+    bool Game_Ended = false;
+
     void Start()
     {
       all = SceneManager.GetActiveScene().GetRootGameObjects();
@@ -20,6 +22,9 @@ public class Manager_script : MonoBehaviour
         rewind = player.GetComponent<Rewind>();
         move = player.GetComponent<Player_movement>();
     }
+
+    
+
     void Update()
     {
         //rewind 
@@ -33,7 +38,20 @@ public class Manager_script : MonoBehaviour
         }
     }
 
-    
+    //End_Game or Repawn
+    public void End_Game()
+    {
+        if (Game_Ended == false)
+        {
+          // later to end the game      Game_Ended = true;
+            Restart();
+        }
+    }
+
+    void Restart()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+    }
 
 
 }

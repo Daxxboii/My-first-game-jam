@@ -12,6 +12,9 @@ public class Player_movement : MonoBehaviour
    public Transform Ground_Checker;
    public float Ground_Distance;
    public float gravity;
+
+    public GameObject Manager_GameObject;
+    public Manager_script manager;
    
    private CharacterController controller;
     private CharacterController Crouch;
@@ -26,6 +29,8 @@ public class Player_movement : MonoBehaviour
    	controller = this.gameObject.transform.GetComponent<CharacterController>();
    	 pos = transform.position;
    	 lockpos = pos.z;
+        Manager_GameObject = GameObject.FindWithTag("Manager");
+        manager = Manager_GameObject.transform.GetComponent<Manager_script>();
    }
 
     private void Start()
@@ -64,11 +69,20 @@ public class Player_movement : MonoBehaviour
         if (Input.GetKey("c") || Input.GetKey(KeyCode.LeftControl) || Input.GetKey(KeyCode.RightControl) || Input.GetKey(KeyCode.DownArrow))
         {
             Crouch.height = move_details.Crouch_height;
+            move_details.speed = 0.2f;
         }
         else
         {
             Crouch.height = 2f;
+            
         }
+
+        //respawn 
+        if (transform.position.y <= move_details.Respawn_limit)
+        {
+            manager.End_Game();
+        }
+
 
         //Fake Gravity
         move.y += gravity*Time.deltaTime;

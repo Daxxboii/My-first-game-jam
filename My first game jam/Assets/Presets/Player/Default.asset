@@ -16,3 +16,4 @@ MonoBehaviour:
   Down_force: -0.1
   Jump_force: 2
   Crouch_height: 0.1
+  Respawn_limit: -2

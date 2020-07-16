@@ -9,6 +9,7 @@ public class Player_details :Base
     public float Down_force;
     public float Jump_force;
     public float Crouch_height;
+    public float Respawn_limit;
     internal bool position;
     
 }
