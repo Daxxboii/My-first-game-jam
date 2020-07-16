@@ -14,6 +14,7 @@ public class Player_movement : MonoBehaviour
    public float gravity;
    
    private CharacterController controller;
+    private CharacterController Crouch;
 
    private Vector3 pos;
    private float lockpos;
@@ -27,7 +28,12 @@ public class Player_movement : MonoBehaviour
    	 lockpos = pos.z;
    }
 
-   void FixedUpdate(){
+    private void Start()
+    {
+        Crouch = gameObject.GetComponent<CharacterController>();
+    }
+
+    void FixedUpdate(){
      
      //Ground Check
       Is_Grounded = Physics.CheckSphere(Ground_Checker.position,Ground_Distance,ground);
@@ -53,9 +59,19 @@ public class Player_movement : MonoBehaviour
         move.y = Mathf.Sqrt(move_details.Jump_force * move_details.Down_force * gravity);
         //Debug.Log("JUMP");
       }
-       
-       //Fake Gravity
-       move.y += gravity*Time.deltaTime;
+
+        //Crouch
+        if (Input.GetKey("c") || Input.GetKey(KeyCode.LeftControl) || Input.GetKey(KeyCode.RightControl))
+        {
+            Crouch.height = 0.1f;
+        }
+        else
+        {
+            Crouch.height = 2f;
+        }
+
+        //Fake Gravity
+        move.y += gravity*Time.deltaTime;
 
 
 
