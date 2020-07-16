@@ -5,22 +5,35 @@ using UnityEngine.SceneManagement;
 
 public class Manager_script : MonoBehaviour
 {
+    
     public GameObject[] all;
+
+    //rewind stuff manager
+    private GameObject player;
+    private Rewind rewind;
+    private Player_movement move;
+
     void Start()
     {
       all = SceneManager.GetActiveScene().GetRootGameObjects();
-        assign();
+        player = GameObject.FindWithTag("Player");
+        rewind = player.GetComponent<Rewind>();
+        move = player.GetComponent<Player_movement>();
     }
-    public void assign()
+    void Update()
     {
-        foreach (GameObject obj in all)
+        //rewind 
+        if (rewind.Is_rewinding)
         {
-            if (obj.tag != "UI" )
-            {
-                obj.AddComponent<Rewind>();
-            }
+            move.enabled = false;
+        }
+        else
+        {
+            move.enabled = true;
         }
     }
+
+    
 
 
 }

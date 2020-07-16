@@ -5,39 +5,34 @@ using System;
 
 public class Rewind : MonoBehaviour
 {
-    public bool Is_rewinding;
-    List<Vector3> positions;
-    private bool cleanup;
-    public float rewind_time = 2f;
-    private int maintaining_factor;
+    public bool Is_rewinding = false;
 
 
-    void Awake()
+    private List<Vector3> positions;
+ 
+
+
+    void Start()
     {
         positions = new List<Vector3>();
-        StartCoroutine(Cleanup());
+      
     }
-
-
 
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.Return))
         {
-            Start_rewind();
+            StartRewind();
         }
-
         if (Input.GetKeyUp(KeyCode.Return))
         {
-            Stop_rewind();
+            StopRewind();
         }
-
+     
     }
-
-
+    
     void FixedUpdate()
     {
-
         if (Is_rewinding)
         {
             _Rewind();
@@ -47,56 +42,42 @@ public class Rewind : MonoBehaviour
             Record();
         }
     }
+   
 
 
     void Record()
     {
-     
-            positions.Add(transform.position);
-            //Debug.Log(cleanup);
-            if (cleanup == true)
-            {
-                positions.RemoveAt(0);
-            }
-
-        
+        positions.Insert(0,transform.position);
+       
     }
-
     void _Rewind()
     {
         if (positions.Count > 0)
         {
-            transform.position = positions[positions.Count - 1];
-            positions.RemoveAt(positions.Count - 1);
+            transform.position = positions[positions.Count-1];
+           // positions.RemoveAt(0);
+           
+
         }
         else
         {
-            Stop_rewind();
+            positions = new List<Vector3>();
+            StopRewind();
+
         }
     }
-    void Start_rewind()
+
+    void StartRewind()
     {
         Is_rewinding = true;
-       
 
     }
 
-
-
-    void Stop_rewind()
+    void StopRewind()
     {
         Is_rewinding = false;
-        cleanup = false;
-        positions = new List<Vector3>();
-        StartCoroutine(Cleanup());
     }
    
-    IEnumerator Cleanup()
-    {
-        yield return new WaitForSeconds(rewind_time);
-        maintaining_factor = positions.Count;
-        cleanup = true;
-    }
-}
-   
+    
 
+}
