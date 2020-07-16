@@ -18,16 +18,29 @@ namespace AK
 
     namespace STATES
     {
-        namespace MUSIC_LEVELS
+        namespace MUSICLEVELS
         {
-            static const AkUniqueID GROUP = 2209143460U;
+            static const AkUniqueID GROUP = 4206939811U;
 
             namespace STATE
             {
-                static const AkUniqueID LEVEL_1 = 1290008369U;
+                static const AkUniqueID LEVEL1 = 2678230382U;
+                static const AkUniqueID LEVEL2 = 2678230381U;
                 static const AkUniqueID NONE = 748895195U;
             } // namespace STATE
-        } // namespace MUSIC_LEVELS
+        } // namespace MUSICLEVELS
+
+        namespace PLAYERLIFE
+        {
+            static const AkUniqueID GROUP = 444815956U;
+
+            namespace STATE
+            {
+                static const AkUniqueID ALIVE = 655265632U;
+                static const AkUniqueID DEAD = 2044049779U;
+                static const AkUniqueID NONE = 748895195U;
+            } // namespace STATE
+        } // namespace PLAYERLIFE
 
     } // namespace STATES
 
