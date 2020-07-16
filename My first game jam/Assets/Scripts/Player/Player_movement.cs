@@ -55,13 +55,13 @@ public class Player_movement : MonoBehaviour
 
 
       //Jump
-      if(Is_Grounded && Input.GetButton("Jump")){
+      if(Is_Grounded && Input.GetButton("Jump") || Is_Grounded && Input.GetKey(KeyCode.UpArrow)){
         move.y = Mathf.Sqrt(move_details.Jump_force * move_details.Down_force * gravity);
         //Debug.Log("JUMP");
       }
 
         //Crouch
-        if (Input.GetKey("c") || Input.GetKey(KeyCode.LeftControl) || Input.GetKey(KeyCode.RightControl))
+        if (Input.GetKey("c") || Input.GetKey(KeyCode.LeftControl) || Input.GetKey(KeyCode.RightControl) || Input.GetKey(KeyCode.DownArrow))
         {
             Crouch.height = move_details.Crouch_height;
         }
