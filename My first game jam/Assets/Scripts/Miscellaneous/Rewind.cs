@@ -6,16 +6,18 @@ using System;
 public class Rewind : MonoBehaviour
 {
     public bool Is_rewinding = false;
+    public int Frames_to_go_back;
 
 
     private List<Vector3> positions;
- 
+    
+
 
 
     void Start()
     {
-        positions = new List<Vector3>();
-      
+        positions = new List<Vector3>(5);
+
     }
 
     void Update()
@@ -28,9 +30,11 @@ public class Rewind : MonoBehaviour
         {
             StopRewind();
         }
-     
+
+
+
     }
-    
+
     void FixedUpdate()
     {
         if (Is_rewinding)
@@ -42,21 +46,32 @@ public class Rewind : MonoBehaviour
             Record();
         }
     }
-   
+
 
 
     void Record()
     {
-        positions.Insert(0,transform.position);
-       
+        if (positions.Count < Frames_to_go_back)
+        {
+            positions.Insert(0, transform.position);
+        }
+        else
+        {
+
+            positions.RemoveAt(positions.Count - 1);
+        }
     }
     void _Rewind()
     {
         if (positions.Count > 0)
         {
-            transform.position = positions[positions.Count-1];
-           // positions.RemoveAt(0);
-           
+            //these are for snappy transition
+            //  transform.position = positions[positions.Count-1];
+
+            //these are for smooth transition
+            transform.position = positions[0];
+            positions.RemoveAt(0);
+
 
         }
         else
@@ -69,6 +84,7 @@ public class Rewind : MonoBehaviour
 
     void StartRewind()
     {
+        //positions = new List<Vector3>();
         Is_rewinding = true;
 
     }
@@ -77,7 +93,7 @@ public class Rewind : MonoBehaviour
     {
         Is_rewinding = false;
     }
-   
-    
+
+
 
 }

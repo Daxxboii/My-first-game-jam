@@ -5,53 +5,44 @@ using UnityEngine.SceneManagement;
 
 public class Manager_script : MonoBehaviour
 {
-    
-    public GameObject[] all;
+
+    private GameObject[] all;
 
     //rewind stuff manager
     private GameObject player;
     private Rewind rewind;
     private Player_movement move;
+    private GameObject rewind_button;
 
-    bool Game_Ended = false;
+   
 
     void Start()
     {
-      all = SceneManager.GetActiveScene().GetRootGameObjects();
+        all = SceneManager.GetActiveScene().GetRootGameObjects();
         player = GameObject.FindWithTag("Player");
         rewind = player.GetComponent<Rewind>();
         move = player.GetComponent<Player_movement>();
+        rewind_button = GameObject.FindWithTag("Rewind");
+        rewind_button.SetActive(false);
     }
 
-    
 
-    void Update()
+
+    void FixedUpdate()
     {
         //rewind 
         if (rewind.Is_rewinding)
         {
             move.enabled = false;
+            rewind_button.SetActive(true);
         }
         else
         {
             move.enabled = true;
+            rewind_button.SetActive(false);
         }
     }
 
-    //End_Game or Repawn
-    public void End_Game()
-    {
-        if (Game_Ended == true)
-        {
-              Game_Ended = false;
-            Restart();
-        }
-    }
-
-    void Restart()
-    {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-    }
-
+   
 
 }

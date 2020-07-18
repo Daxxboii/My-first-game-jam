@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 5801518032561360199}
   m_Layer: 0
   m_Name: Sphere
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -57,7 +57,7 @@ GameObject:
   - component: {fileID: 5801518033113267233}
   m_Layer: 0
   m_Name: Capsule
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -196,6 +196,8 @@ MonoBehaviour:
   Ground_Checker: {fileID: 5801518032561360196}
   Ground_Distance: 0.6
   gravity: -3
+  Manager_GameObject: {fileID: 0}
+  manager: {fileID: 0}
 --- !u!114 &647240684
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -208,4 +210,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ede2eb0aabc6957498572a6f503959d8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Is_rewinding: 0
+  Is_rewinding: 1
+  Frames_to_go_back: 120
