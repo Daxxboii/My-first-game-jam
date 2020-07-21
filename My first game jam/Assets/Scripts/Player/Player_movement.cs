@@ -1,5 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.Collections.Specialized;
+using System.Net;
+using System.Security.Cryptography;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -24,6 +27,9 @@ public class Player_movement : MonoBehaviour
 
     private float _speed;
 
+    //position lock
+    private Vector3 current_pos;
+    private float pos_lock_z;
     //(0,0,0)
     private Vector3 move = Vector3.zero;
 
@@ -35,6 +41,7 @@ public class Player_movement : MonoBehaviour
         Manager_GameObject = GameObject.FindWithTag("Manager");
         manager = Manager_GameObject.transform.GetComponent<Manager_script>();
         _speed = move_details.speed;
+        pos_lock_z = transform.position.z;
     }
 
     private void Start()
@@ -49,10 +56,16 @@ public class Player_movement : MonoBehaviour
         Is_Grounded = Physics.CheckSphere(Ground_Checker.position, Ground_Distance, ground);
 
         //Lock
-        pos = transform.position;
-        pos.z = lockpos;
-        transform.position = pos;
+        //  pos = transform.position;
+        //  pos.z = lockpos;
+        //   transform.position = pos;
 
+        //lock 2
+
+        current_pos = transform.position;
+        current_pos.Set(transform.position.x, transform.position.y, pos_lock_z);
+        transform.position = current_pos;
+        
         //Down Forcw
         if (Is_Grounded && move.y < 0)
         {

@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Rewind
   - Manager
+  - Hud_holder
   layers:
   - Default
   - TransparentFX
