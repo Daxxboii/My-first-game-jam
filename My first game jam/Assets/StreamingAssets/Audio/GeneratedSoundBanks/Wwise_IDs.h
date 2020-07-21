@@ -13,6 +13,7 @@ namespace AK
 {
     namespace EVENTS
     {
+        static const AkUniqueID AMBIENT_ROOFLIGHT = 1917408972U;
         static const AkUniqueID MUSIC = 3991942870U;
     } // namespace EVENTS
 
@@ -47,6 +48,7 @@ namespace AK
     namespace BANKS
     {
         static const AkUniqueID INIT = 1355168291U;
+        static const AkUniqueID GENERAL = 133642231U;
         static const AkUniqueID MUSIC = 3991942870U;
     } // namespace BANKS
 
