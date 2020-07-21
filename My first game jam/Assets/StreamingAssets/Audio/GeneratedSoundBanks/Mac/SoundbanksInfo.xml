@@ -26,7 +26,7 @@
 			<ShortName>Music</ShortName>
 			<Path>Music.bnk</Path>
 			<IncludedEvents>
-				<Event Id="1917408972" Name="Ambient_Rooflight" ObjectPath="\Events\Ambient\General\Ambient_Rooflight" MaxAttenuation="10.000000" DurationType="Infinite">
+				<Event Id="1917408972" Name="Ambient_Rooflight" ObjectPath="\Events\Ambient\General\Ambient_Rooflight" MaxAttenuation="7.000000" DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="959003227" Language="SFX">
 							<ShortName>Electrical_Hum_01.wav</ShortName>

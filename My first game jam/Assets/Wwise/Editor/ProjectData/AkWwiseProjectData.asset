@@ -69,7 +69,7 @@ MonoBehaviour:
       - ElementName: Ambient_Rooflight
         ObjectType: 3
       Path: Ambient/General/Ambient_Rooflight
-      maxAttenuation: 10
+      maxAttenuation: 7
       maxDuration: -1
       minDuration: -1
     - name: General
