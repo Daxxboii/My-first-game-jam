@@ -52,6 +52,38 @@ MonoBehaviour:
         ObjectType: 7
       Path: Default Work Unit/Music
   EventWwu:
+  - PhysicalPath: Events/Ambient.wwu
+    ParentPath: Ambient
+    guid: d4fa4c6dc3d98b4090405769662a22ee
+    GuidInternal: 
+    m_lastTime: -8586062449654775808
+    List:
+    - name: Ambient_Rooflight
+      guid: 1625b4b05eb7944596e741aa32a1ed09
+      id: 1917408972
+      PathAndIcons:
+      - ElementName: Ambient
+        ObjectType: 12
+      - ElementName: General
+        ObjectType: 4
+      - ElementName: Ambient_Rooflight
+        ObjectType: 3
+      Path: Ambient/General/Ambient_Rooflight
+      maxAttenuation: 10
+      maxDuration: -1
+      minDuration: -1
+    - name: General
+      guid: 6f8aa5b6ce7d7845a372840c2254b8ff
+      id: 133642231
+      PathAndIcons:
+      - ElementName: Ambient
+        ObjectType: 12
+      - ElementName: General
+        ObjectType: 4
+      Path: Ambient/General
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
   - PhysicalPath: Events/Default Work Unit.wwu
     ParentPath: Default Work Unit
     guid: e530b43f21a3eb4cbb0d79ea5c1a8552
@@ -180,10 +212,8 @@ MonoBehaviour:
     List: []
   ExpandedItems:
   - /My first game jam_WwiseProject
-  - /My first game jam_WwiseProject/States
-  - /My first game jam_WwiseProject/States/Default Work Unit
-  - /My first game jam_WwiseProject/States/Default Work Unit/MusicStates
-  - /My first game jam_WwiseProject/States/Default Work Unit/MusicStates/MusicLevels
-  - /My first game jam_WwiseProject/States/Default Work Unit/MusicStates/PlayerLife
+  - /My first game jam_WwiseProject/Events
+  - /My first game jam_WwiseProject/Events/Ambient
+  - /My first game jam_WwiseProject/Events/Ambient/General
   autoPopulateEnabled: 1
   CurrentPluginConfig: 

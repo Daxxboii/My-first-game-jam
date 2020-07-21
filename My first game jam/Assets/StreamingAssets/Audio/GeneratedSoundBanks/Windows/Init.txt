@@ -1,6 +1,6 @@
 State Group	ID	Name			Wwise Object Path	Notes
-	444815956	PlayerLife			\Default Work Unit\Music\PlayerLife	
-	4206939811	MusicLevels			\Default Work Unit\Music\MusicLevels	
+	444815956	PlayerLife			\Default Work Unit\PlayerLife	
+	4206939811	MusicLevels			\Default Work Unit\MusicLevels	
 
 State	ID	Name	State Group			Notes
 	655265632	Alive	PlayerLife			
@@ -9,7 +9,6 @@ State	ID	Name	State Group			Notes
 	748895195	None	MusicLevels			
 	2678230381	Level2	MusicLevels			
 	2678230382	Level1	MusicLevels			
-	3211707554	Where	MusicLevels			
 
 Audio Bus	ID	Name			Wwise Object Path	Notes
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	

@@ -11,6 +11,11 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
+		<SoundBank Id="133642231" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\General</ObjectPath>
+			<ShortName>General</ShortName>
+			<Path>General.bnk</Path>
+		</SoundBank>
 		<SoundBank Id="1355168291" Language="SFX">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
@@ -21,6 +26,14 @@
 			<ShortName>Music</ShortName>
 			<Path>Music.bnk</Path>
 			<IncludedEvents>
+				<Event Id="1917408972" Name="Ambient_Rooflight" ObjectPath="\Events\Ambient\General\Ambient_Rooflight" MaxAttenuation="10.000000" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="959003227" Language="SFX">
+							<ShortName>Electrical_Hum_01.wav</ShortName>
+							<Path>SFX/Electrical_Hum_01_8F3D7B05.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="3991942870" Name="Music" ObjectPath="\Events\Default Work Unit\Music\Music" DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="22042175" Language="SFX">

@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1917408972	Ambient_Rooflight			\Ambient\General\Ambient_Rooflight	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	959003227	Electrical_Hum_01	Y:\Documents\Spring_2020\Videogames\MyFirstGameJam\My first game jam_WwiseProject\.cache\Mac\SFX\Electrical_Hum_01_8F3D7B05.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Ambiences_Emitters\Emitters\Electrical_Hum_01		81858
+

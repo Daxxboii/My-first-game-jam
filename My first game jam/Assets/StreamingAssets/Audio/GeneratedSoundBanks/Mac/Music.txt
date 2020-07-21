@@ -1,9 +1,10 @@
 Event	ID	Name			Wwise Object Path	Notes
+	1917408972	Ambient_Rooflight			\Ambient\General\Ambient_Rooflight	
 	3991942870	Music			\Default Work Unit\Music\Music	
 
 State Group	ID	Name			Wwise Object Path	Notes
-	444815956	PlayerLife			\Default Work Unit\MusicStates\PlayerLife	
-	4206939811	MusicLevels			\Default Work Unit\MusicStates\MusicLevels	
+	444815956	PlayerLife			\Default Work Unit\PlayerLife	
+	4206939811	MusicLevels			\Default Work Unit\MusicLevels	
 
 State	ID	Name	State Group			Notes
 	655265632	Alive	PlayerLife			
@@ -52,6 +53,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	940831556	Level1-Theme_MarcStrgs_140bpm_4-4_L16M	Y:\Documents\Spring_2020\Videogames\MyFirstGameJam\My first game jam_WwiseProject\.cache\Mac\SFX\MFGJ_Level1-Theme_MarcStrgs_140bpm_4-4_L16M_C58ED28F.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Music levels\Level I\Level 1 Theme\Level1-Theme_MarcStrgs_140bpm_4-4_L16M		449626
 	952838122	MFGJ_Intro_Celli+DB+SB_140bpm_4-4_L16M-P1	Y:\Documents\Spring_2020\Videogames\MyFirstGameJam\My first game jam_WwiseProject\.cache\Mac\SFX\Level 1 Intro - Default\MFGJ_Intro_Celli+DB_140bpm_4-4_L16M-P1_C58ED28F.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Music levels\Level I\Level 1 Intro - Default\MFGJ_Intro_Celli+DB+SB_140bpm_4-4_L16M-P1		443667
 	952942362	Level_2_A_Piano2	Y:\Documents\Spring_2020\Videogames\MyFirstGameJam\My first game jam_WwiseProject\.cache\Mac\SFX\Level_2_A_Piano2_C58ED28F.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Music levels\Level II\Level_2_A\Level_2_A_Piano2		422573
+	959003227	Electrical_Hum_01	Y:\Documents\Spring_2020\Videogames\MyFirstGameJam\My first game jam_WwiseProject\.cache\Mac\SFX\Electrical_Hum_01_8F3D7B05.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Ambiences_Emitters\Emitters\Electrical_Hum_01		81858
 	962149203	MFGJ_Intro_Bass-Melody1FireFlies_140bpm_4-4_L8M	Y:\Documents\Spring_2020\Videogames\MyFirstGameJam\My first game jam_WwiseProject\.cache\Mac\SFX\Level 1 Intro - Default\MFGJ_Intro_Bass-Melody3Synth_140bpm_4-4_L16M-P1_C58ED28F.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Music levels\Level I\Level 1 Intro - Default\MFGJ_Intro_Bass-Melody1FireFlies_140bpm_4-4_L8M		300895
 	966017587	Intro_CymbalRoll_140bpm_4-4_L16M-P1	Y:\Documents\Spring_2020\Videogames\MyFirstGameJam\My first game jam_WwiseProject\.cache\Mac\SFX\Level 1 Intro - Default\MFGJ_Intro_CymbalRoll_140bpm_4-4_L16M-P1_275D7200.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Music levels\Level I\Level 1 Theme\Intro_CymbalRoll_140bpm_4-4_L16M-P1		115703
 	1005906371	MFGJ_Intro_Bass-Piano-1_140bpm_4-4_L16M-P1	Y:\Documents\Spring_2020\Videogames\MyFirstGameJam\My first game jam_WwiseProject\.cache\Mac\SFX\Level 1 Intro - Default\MFGJ_Intro_Bass-Piano-2_140bpm_4-4_L16M-P1_C58ED28F.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Music levels\Level I\Level 1 Intro - Default\MFGJ_Intro_Bass-Piano-1_140bpm_4-4_L16M-P1		420382
