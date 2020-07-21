@@ -79,17 +79,17 @@ public class Player_movement : MonoBehaviour
 
 
         //Jump
-        if (Is_Grounded && Input.GetButton("Jump") || Is_Grounded && Input.GetKey(KeyCode.UpArrow))
+        if (Is_Grounded && Input.GetButton("Jump") || Is_Grounded && Input.GetKey(KeyCode.UpArrow) || Is_Grounded && Input.GetKey("w"))
         {
             move.y = Mathf.Sqrt(move_details.Jump_force * move_details.Down_force * gravity);
             //Debug.Log("JUMP");
         }
 
         //Crouch
-        if (Input.GetKey("c") || Input.GetKey(KeyCode.LeftControl) || Input.GetKey(KeyCode.RightControl) || Input.GetKey(KeyCode.DownArrow))
+        if (Input.GetKey("c") || Input.GetKey(KeyCode.LeftControl) || Input.GetKey(KeyCode.RightControl) || Input.GetKey(KeyCode.DownArrow) || Input.GetKey("s"))
         {
             Crouch.height = move_details.Crouch_height;
-            move_details.speed = 0.2f;
+            move_details.speed = 0.09f;
         }
         else
         {
