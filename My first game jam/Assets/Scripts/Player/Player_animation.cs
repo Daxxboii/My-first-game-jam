@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Collections.Specialized;
+
 using System.Security.Cryptography;
 using UnityEngine;
 
@@ -32,18 +33,50 @@ public class Player_animation : MonoBehaviour
         if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.LeftArrow))
         {
             flip = true;
-            anim.SetInteger("Horizontal", 1);
+            
+            if( Input.GetButton("Jump") || Input.GetKey(KeyCode.UpArrow) || Input.GetKey("w"))
+            {
+               
+                anim.SetInteger("Vertical", 1);
+             //   anim.SetInteger("Horizontal", 0);//out of bounds
+                Debug.Log("yo boii");
+            }
+            else
+            {
+                anim.SetInteger("Horizontal", 1);
+                anim.SetInteger("Vertical", 0);
+            }
+           
+            
         }
         
         else if (Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.RightArrow))
         {
             flip = false;
-            anim.SetInteger("Horizontal", 1);
+
+            if (Input.GetButton("Jump") || Input.GetKey(KeyCode.UpArrow) || Input.GetKey("w"))
+            {
+
+                anim.SetInteger("Vertical", 1);
+                //   anim.SetInteger("Horizontal", 0);//out of bounds
+                Debug.Log("yo boii");
+            }
+            else
+            {
+                anim.SetInteger("Horizontal", 1);
+                anim.SetInteger("Vertical", 0);
+            }
         }
 
+        else if(Input.GetButtonDown("Jump") || Input.GetKeyDown(KeyCode.UpArrow) || Input.GetKeyDown("w")) {
+            anim.SetInteger("Horizontal", 0);
+            anim.SetInteger("Vertical", 1);
+        }
+      
         else
         {
             anim.SetInteger("Horizontal", 0);
+            anim.SetInteger("Vertical", 0);
         }
         Flip();
        

@@ -155,6 +155,7 @@ MonoBehaviour:
   Ground_Checker: {fileID: 5110662700688916723}
   Ground_Distance: 0.6
   gravity: -3
+  move: {x: 0, y: 0, z: 0}
   Player_animator: {fileID: 647443339}
 --- !u!114 &5110662701352364279
 MonoBehaviour:
