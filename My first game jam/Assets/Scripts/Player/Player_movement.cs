@@ -31,7 +31,8 @@ public class Player_movement : MonoBehaviour
     private Vector3 current_pos;
     private float pos_lock_z;
     //(0,0,0)
-    private Vector3 move = Vector3.zero;
+    [HideInInspector]
+    public Vector3 move = Vector3.zero;
 
     //Animation stuff(animator to be dragged and dropped)
     public Animator Player_animator;
