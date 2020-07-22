@@ -16,8 +16,8 @@ public class Player_movement : MonoBehaviour
     public float Ground_Distance;
     public float gravity;
 
-    public GameObject Manager_GameObject;
-    public Manager_script manager;
+    private GameObject Manager_GameObject;
+    private Manager_script manager;
 
     private CharacterController controller;
     private CharacterController Crouch;
@@ -33,6 +33,11 @@ public class Player_movement : MonoBehaviour
     //(0,0,0)
     private Vector3 move = Vector3.zero;
 
+    //Animation stuff(animator to be dragged and dropped)
+    public Animator Player_animator;
+    private float Animation_state;
+
+
     void Awake()
     {
         controller = this.gameObject.transform.GetComponent<CharacterController>();
@@ -42,6 +47,7 @@ public class Player_movement : MonoBehaviour
         manager = Manager_GameObject.transform.GetComponent<Manager_script>();
         _speed = move_details.speed;
         pos_lock_z = transform.position.z;
+        
     }
 
     private void Start()
@@ -66,7 +72,7 @@ public class Player_movement : MonoBehaviour
         current_pos.Set(transform.position.x, transform.position.y, pos_lock_z);
         transform.position = current_pos;
         
-        //Down Forcw
+        //Down Force
         if (Is_Grounded && move.y < 0)
         {
             move.y = move_details.Down_force;
@@ -90,6 +96,7 @@ public class Player_movement : MonoBehaviour
         {
             Crouch.height = move_details.Crouch_height;
             move_details.speed = 0.09f;
+            Animation_state = 3;
         }
         else
         {
@@ -107,6 +114,11 @@ public class Player_movement : MonoBehaviour
 
         controller.Move(move);
 
+
+    }
+
+    void Animations()
+    {
 
     }
 
