@@ -39,7 +39,7 @@ public class Player_animation : MonoBehaviour
                
                 anim.SetInteger("Vertical", 1);
              //   anim.SetInteger("Horizontal", 0);//out of bounds
-                Debug.Log("yo boii");
+                Debug.Log("TaDaaaa");
             }
             else
             {
@@ -59,7 +59,7 @@ public class Player_animation : MonoBehaviour
 
                 anim.SetInteger("Vertical", 1);
                 //   anim.SetInteger("Horizontal", 0);//out of bounds
-                Debug.Log("yo boii");
+                Debug.Log("TaDaaaa");
             }
             else
             {

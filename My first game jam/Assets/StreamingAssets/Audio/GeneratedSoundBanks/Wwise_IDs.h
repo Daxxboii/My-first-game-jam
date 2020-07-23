@@ -14,6 +14,8 @@ namespace AK
     namespace EVENTS
     {
         static const AkUniqueID AMBIENT_ROOFLIGHT = 1917408972U;
+        static const AkUniqueID FOOTSTEPS_L = 84044443U;
+        static const AkUniqueID FOOTSTEPS_R = 84044421U;
         static const AkUniqueID MUSIC = 3991942870U;
     } // namespace EVENTS
 
@@ -56,6 +58,11 @@ namespace AK
     {
         static const AkUniqueID MASTER_AUDIO_BUS = 3803692087U;
     } // namespace BUSSES
+
+    namespace AUX_BUSSES
+    {
+        static const AkUniqueID REVERB_FOOTSTEPS = 1921000341U;
+    } // namespace AUX_BUSSES
 
     namespace AUDIO_DEVICES
     {
