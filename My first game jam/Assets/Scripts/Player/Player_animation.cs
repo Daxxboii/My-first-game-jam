@@ -42,8 +42,9 @@ public class Player_animation : MonoBehaviour
         if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.LeftArrow))
         {
             flip = true;
-            
-            if( Input.GetButton("Jump") || Input.GetKey(KeyCode.UpArrow) || Input.GetKey("w"))
+            transform.localPosition = current_offset;
+
+            if ( Input.GetButton("Jump") || Input.GetKey(KeyCode.UpArrow) || Input.GetKey("w"))
             {
                
                 anim.SetInteger("Vertical", 1);
@@ -56,13 +57,27 @@ public class Player_animation : MonoBehaviour
                 anim.SetInteger("Vertical", 0);
                 
             }
-           
-            
+            if (Input.GetKey("c") || Input.GetKey(KeyCode.LeftControl) || Input.GetKey(KeyCode.RightControl) || Input.GetKey(KeyCode.DownArrow) || Input.GetKey("s"))
+            {
+                anim.SetInteger("Horizontal", 1);
+                anim.SetInteger("Vertical", -1);
+                transform.localPosition = offset;
+
+                if (Input.GetButton("Jump") || Input.GetKey(KeyCode.UpArrow) || Input.GetKey("w"))
+                {
+                    anim.SetInteger("Vertical", 1);
+                    transform.localPosition = current_offset;
+                }
+            }
+
+
+
         }
         
         else if (Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.RightArrow))
         {
             flip = false;
+            transform.localPosition = current_offset;
 
             if (Input.GetButton("Jump") || Input.GetKey(KeyCode.UpArrow) || Input.GetKey("w"))
             {
@@ -76,6 +91,13 @@ public class Player_animation : MonoBehaviour
                 anim.SetInteger("Horizontal", 1);
                 anim.SetInteger("Vertical", 0);
             }
+
+            if (Input.GetKey("c") || Input.GetKey(KeyCode.LeftControl) || Input.GetKey(KeyCode.RightControl) || Input.GetKey(KeyCode.DownArrow) || Input.GetKey("s"))
+            {
+                anim.SetInteger("Horizontal", 1);
+                anim.SetInteger("Vertical", -1);
+                transform.localPosition = offset;
+            }
         }
 
         else if(Input.GetButtonDown("Jump") || Input.GetKeyDown(KeyCode.UpArrow) || Input.GetKeyDown("w")) {
@@ -88,10 +110,13 @@ public class Player_animation : MonoBehaviour
             anim.SetInteger("Horizontal", 0);
             anim.SetInteger("Vertical", -1);
             transform.localPosition = offset;
+
+           
         }
 
-        
-        
+       
+
+
         else
         {
             anim.SetInteger("Horizontal", 0);
