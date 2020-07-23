@@ -7,7 +7,7 @@ public class Rewind : MonoBehaviour
 {
     public bool Is_rewinding = false;
     public int Frames_to_go_back;
-
+    public Animator anim;
 
     private List<Vector3> positions;
     
@@ -71,6 +71,8 @@ public class Rewind : MonoBehaviour
             //these are for smooth transition
             transform.position = positions[0];
             positions.RemoveAt(0);
+          
+
 
 
         }
@@ -78,6 +80,7 @@ public class Rewind : MonoBehaviour
         {
             positions = new List<Vector3>();
             StopRewind();
+           
 
         }
     }
@@ -86,12 +89,14 @@ public class Rewind : MonoBehaviour
     {
         //positions = new List<Vector3>();
         Is_rewinding = true;
+        anim.SetBool("Reverse", true);
 
     }
 
     void StopRewind()
     {
         Is_rewinding = false;
+        anim.SetBool("Reverse", false);
     }
 
 

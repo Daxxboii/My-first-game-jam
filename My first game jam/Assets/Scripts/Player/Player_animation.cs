@@ -44,7 +44,7 @@ public class Player_animation : MonoBehaviour
             flip = true;
             transform.localPosition = current_offset;
 
-            if ( Input.GetButton("Jump") || Input.GetKey(KeyCode.UpArrow) || Input.GetKey("w"))
+            if ( Input.GetButtonDown("Jump") || Input.GetKeyDown(KeyCode.UpArrow) || Input.GetKeyDown("w"))
             {
                
                 anim.SetInteger("Vertical", 1);
@@ -79,7 +79,7 @@ public class Player_animation : MonoBehaviour
             flip = false;
             transform.localPosition = current_offset;
 
-            if (Input.GetButton("Jump") || Input.GetKey(KeyCode.UpArrow) || Input.GetKey("w"))
+            if (Input.GetButtonDown("Jump") || Input.GetKeyDown(KeyCode.UpArrow) || Input.GetKeyDown("w"))
             {
 
                 anim.SetInteger("Vertical", 1);

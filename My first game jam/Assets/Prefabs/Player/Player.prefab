@@ -126,6 +126,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   anim: {fileID: 647443339}
+  crouch_offset: -0.6
 --- !u!54 &740790340
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -261,7 +262,7 @@ MonoBehaviour:
     m_Bits: 256
   Ground_Checker: {fileID: 5110662700688916723}
   Ground_Distance: 0.6
-  gravity: -3
+  gravity: -1
   move: {x: 0, y: 0, z: 0}
   Player_animator: {fileID: 647443339}
 --- !u!114 &5110662701352364279
@@ -278,6 +279,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Is_rewinding: 1
   Frames_to_go_back: 120
+  anim: {fileID: 647443339}
 --- !u!114 &5110662701352364272
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1065,7 +1067,7 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: 4e4acbd5b153e164189fa5348018e8ff,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.81
+      value: -1.1
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 4e4acbd5b153e164189fa5348018e8ff,
         type: 3}
@@ -1611,6 +1613,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: -0.096449584
+      objectReference: {fileID: 0}
+    - target: {fileID: -837868334358344721, guid: 4e4acbd5b153e164189fa5348018e8ff,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -8.657
       objectReference: {fileID: 0}
     - target: {fileID: -772746595390428429, guid: 4e4acbd5b153e164189fa5348018e8ff,
         type: 3}
