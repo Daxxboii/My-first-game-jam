@@ -3697,6 +3697,12 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8089756155658555535, guid: efdda870fcc3b7a4cb35f0e4907efe75,
+        type: 3}
+      propertyPath: TeleporterBeepSound.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: efd779f8a33af44158049e77bb31864e,
+        type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: efdda870fcc3b7a4cb35f0e4907efe75, type: 3}
 --- !u!1001 &6790703394947547584
@@ -3760,16 +3766,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1965777311925347644, guid: 2a6f8c4cff24d6e49a36113f25386f1d,
-        type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.6499999
-      objectReference: {fileID: 0}
-    - target: {fileID: 1965777311925347644, guid: 2a6f8c4cff24d6e49a36113f25386f1d,
-        type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.6499999
       objectReference: {fileID: 0}
     - target: {fileID: 3250615779649115951, guid: 2a6f8c4cff24d6e49a36113f25386f1d,
         type: 3}

@@ -127,6 +127,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 56f14676a58c9984b948aa91d760a00a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  OpenDoorSound:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 4530c54f383a748818eb9a9eab51b0b2,
+      type: 2}
 --- !u!65 &3385419255421949349
 BoxCollider:
   m_ObjectHideFlags: 0

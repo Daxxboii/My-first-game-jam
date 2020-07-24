@@ -6484,7 +6484,14 @@ AnimationClip:
   m_HasMotionFloatCurves: 0
   m_Events:
   - time: 7.0833335
-    functionName: 
+    functionName: PlayTeleporterBeep
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 8.083333
+    functionName: PlayTeleporterBeep
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0

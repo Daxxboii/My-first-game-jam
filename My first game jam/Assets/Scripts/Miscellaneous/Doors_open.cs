@@ -7,6 +7,8 @@ public class Doors_open : MonoBehaviour
     private Animator door;
     private BoxCollider collider;
 
+    public AK.Wwise.Event OpenDoorSound;
+
     void Awake()
     {
         door = this.gameObject.transform.GetComponent<Animator>();
@@ -19,6 +21,7 @@ public class Doors_open : MonoBehaviour
         {
             door.SetBool("Open", true);
             collider.enabled = false;
+            OpenDoorSound.Post(gameObject);
         }
     }
 }

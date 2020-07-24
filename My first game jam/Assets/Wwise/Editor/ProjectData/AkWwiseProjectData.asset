@@ -24,7 +24,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 8a016db880f2f145b17396d6608d628f
     GuidInternal: 
-    m_lastTime: -8586061550294775808
+    m_lastTime: -8586060398074775808
     List:
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
@@ -67,7 +67,7 @@ MonoBehaviour:
     ParentPath: Ambient
     guid: d4fa4c6dc3d98b4090405769662a22ee
     GuidInternal: 
-    m_lastTime: -8586061591274775808
+    m_lastTime: -8586060346464775808
     List:
     - name: Ambient_Rooflight
       guid: 1625b4b05eb7944596e741aa32a1ed09
@@ -83,6 +83,20 @@ MonoBehaviour:
       maxAttenuation: 7
       maxDuration: -1
       minDuration: -1
+    - name: Door_Open
+      guid: efe45e46a85c8a4dbc0289b72278e3e2
+      id: 535830432
+      PathAndIcons:
+      - ElementName: Ambient
+        ObjectType: 12
+      - ElementName: General
+        ObjectType: 4
+      - ElementName: Door_Open
+        ObjectType: 3
+      Path: Ambient/General/Door_Open
+      maxAttenuation: 0
+      maxDuration: 0.868017
+      minDuration: 0.357287
     - name: General
       guid: 6f8aa5b6ce7d7845a372840c2254b8ff
       id: 133642231
@@ -105,8 +119,22 @@ MonoBehaviour:
     ParentPath: MainCharacter
     guid: 1e09873c3b5393489543e91b291c4c24
     GuidInternal: 
-    m_lastTime: -8586061419794775808
+    m_lastTime: -8586060691984775808
     List:
+    - name: Crouch
+      guid: 26c37b074cdd074c9e7c4f93fd38130d
+      id: 2655407367
+      PathAndIcons:
+      - ElementName: MainCharacter
+        ObjectType: 12
+      - ElementName: Movement
+        ObjectType: 4
+      - ElementName: Crouch
+        ObjectType: 3
+      Path: MainCharacter/Movement/Crouch
+      maxAttenuation: 150
+      maxDuration: 3.311708
+      minDuration: 0.948234
     - name: Footsteps_L
       guid: 760fc7ede02a90438a11a8100ebdaab6
       id: 84044443
@@ -120,8 +148,8 @@ MonoBehaviour:
       - ElementName: Footsteps_L
         ObjectType: 3
       Path: MainCharacter/Movement/MC Footsteps/Footsteps_L
-      maxAttenuation: 0
-      maxDuration: 0.129819
+      maxAttenuation: 150
+      maxDuration: 0.19589
       minDuration: 0.039116
     - name: Footsteps_R
       guid: 9ff4a9596791d64caf75210bbdc149c5
@@ -136,7 +164,7 @@ MonoBehaviour:
       - ElementName: Footsteps_R
         ObjectType: 3
       Path: MainCharacter/Movement/MC Footsteps/Footsteps_R
-      maxAttenuation: 0
+      maxAttenuation: 150
       maxDuration: 0.129819
       minDuration: 0.039116
     - name: Jump
@@ -150,9 +178,9 @@ MonoBehaviour:
       - ElementName: Jump
         ObjectType: 3
       Path: MainCharacter/Movement/Jump
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxAttenuation: 150
+      maxDuration: 0.208992
+      minDuration: 0.164169
     - name: MC Footsteps
       guid: 2707dfc5ff7b214b8097a69fe096c49f
       id: 3060722568
@@ -190,9 +218,9 @@ MonoBehaviour:
       - ElementName: Transporter_Beep
         ObjectType: 3
       Path: MainCharacter/Movement/Transporter_Beep
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxAttenuation: 150
+      maxDuration: 0.327151
+      minDuration: 0.220442
   - PhysicalPath: Events/Music.wwu
     ParentPath: Default Work Unit/Music
     guid: 279369222fcd7c4286bdf9cdff023ff0

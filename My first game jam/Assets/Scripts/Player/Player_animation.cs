@@ -21,6 +21,7 @@ public class Player_animation : MonoBehaviour
     private Vector3 offset;
     private Vector3 current_offset;
 
+    public AK.Wwise.Event TeleporterBeepSound;
 
     private void Start()
     {
@@ -141,4 +142,8 @@ public class Player_animation : MonoBehaviour
         }
     }
 
+    void PlayTeleporterBeep()
+    {
+        TeleporterBeepSound.Post(gameObject);
+    }
 }

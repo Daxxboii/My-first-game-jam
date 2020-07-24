@@ -40,46 +40,115 @@
 						<AuxBus Id="1921000341" Name="Reverb_Footsteps" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb_Footsteps"/>
 					</AuxBusSends>
 				</Event>
-				<Event Id="84044443" Name="Footsteps_L" ObjectPath="\Events\MainCharacter\Movement\MC Footsteps\Footsteps_L" DurationType="OneShot" DurationMin="0.039116" DurationMax="0.129819">
+				<Event Id="2655407367" Name="Crouch" ObjectPath="\Events\MainCharacter\Movement\Crouch" MaxAttenuation="150.000000" DurationType="OneShot" DurationMin="0.948234" DurationMax="3.311708">
 					<IncludedMemoryFiles>
-						<File Id="293208567" Language="SFX">
-							<ShortName>FS_Concrete-Stone_04.wav</ShortName>
-							<Path>SFX/FS_Concrete-Stone_04_9099590A.wem</Path>
+						<File Id="74584598" Language="SFX">
+							<ShortName>Leather_Jacket_Movement_Rustle_Scrunches_OCP-1543-51.wav</ShortName>
+							<Path>SFX/Leather_Jacket_Movement_Rustle_Scrunches_OCP-1543-51_269617BC.wem</Path>
 						</File>
-						<File Id="443619244" Language="SFX">
-							<ShortName>FS_Concrete-Stone_02.wav</ShortName>
-							<Path>SFX/FS_Concrete-Stone_02_B2A79F92.wem</Path>
+						<File Id="413553582" Language="SFX">
+							<ShortName>Leather_Jacket_Movement_Rustle_Scrunches_OCP-1543-51.wav</ShortName>
+							<Path>SFX/Leather_Jacket_Movement_Rustle_Scrunches_OCP-1543-51_A182D32E.wem</Path>
 						</File>
-						<File Id="669525631" Language="SFX">
-							<ShortName>FS_Concrete-Stone_03.wav</ShortName>
-							<Path>SFX/FS_Concrete-Stone_03_6A216A74.wem</Path>
+						<File Id="489715854" Language="SFX">
+							<ShortName>Leather_Jacket_Movement_Rustle_Scrunches_OCP-1543-51.wav</ShortName>
+							<Path>SFX/Leather_Jacket_Movement_Rustle_Scrunches_OCP-1543-51_5E9D90D4.wem</Path>
 						</File>
-						<File Id="868296741" Language="SFX">
-							<ShortName>FS_Concrete-Stone_05.wav</ShortName>
-							<Path>SFX/FS_Concrete-Stone_05_7C088595.wem</Path>
+						<File Id="876384917" Language="SFX">
+							<ShortName>Leather_Jacket_Movement_Rustle_Scrunches_OCP-1543-51.wav</ShortName>
+							<Path>SFX/Leather_Jacket_Movement_Rustle_Scrunches_OCP-1543-51_93D55076.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 					<AuxBusSends>
 						<AuxBus Id="1921000341" Name="Reverb_Footsteps" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb_Footsteps"/>
 					</AuxBusSends>
 				</Event>
-				<Event Id="84044421" Name="Footsteps_R" ObjectPath="\Events\MainCharacter\Movement\MC Footsteps\Footsteps_R" DurationType="OneShot" DurationMin="0.039116" DurationMax="0.129819">
+				<Event Id="535830432" Name="Door_Open" ObjectPath="\Events\Ambient\General\Door_Open" DurationType="OneShot" DurationMin="0.357287" DurationMax="0.868017">
+					<IncludedMemoryFiles>
+						<File Id="651055783" Language="SFX">
+							<ShortName>door_open_004.wav</ShortName>
+							<Path>SFX/door_open_004_EA6416CF.wem</Path>
+						</File>
+						<File Id="917472053" Language="SFX">
+							<ShortName>door_open_004.wav</ShortName>
+							<Path>SFX/door_open_004_B05EB4B9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="1921000341" Name="Reverb_Footsteps" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb_Footsteps"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="84044443" Name="Footsteps_L" ObjectPath="\Events\MainCharacter\Movement\MC Footsteps\Footsteps_L" MaxAttenuation="150.000000" DurationType="OneShot" DurationMin="0.039116" DurationMax="0.195890">
 					<IncludedMemoryFiles>
 						<File Id="293208567" Language="SFX">
 							<ShortName>FS_Concrete-Stone_04.wav</ShortName>
-							<Path>SFX/FS_Concrete-Stone_04_9099590A.wem</Path>
+							<Path>SFX/FS_Concrete-Stone_04_5D095723.wem</Path>
 						</File>
 						<File Id="443619244" Language="SFX">
 							<ShortName>FS_Concrete-Stone_02.wav</ShortName>
-							<Path>SFX/FS_Concrete-Stone_02_B2A79F92.wem</Path>
+							<Path>SFX/FS_Concrete-Stone_02_137CD786.wem</Path>
 						</File>
 						<File Id="669525631" Language="SFX">
 							<ShortName>FS_Concrete-Stone_03.wav</ShortName>
-							<Path>SFX/FS_Concrete-Stone_03_6A216A74.wem</Path>
+							<Path>SFX/FS_Concrete-Stone_03_F15A5837.wem</Path>
 						</File>
 						<File Id="868296741" Language="SFX">
 							<ShortName>FS_Concrete-Stone_05.wav</ShortName>
-							<Path>SFX/FS_Concrete-Stone_05_7C088595.wem</Path>
+							<Path>SFX/FS_Concrete-Stone_05_23A7C4EC.wem</Path>
+						</File>
+						<File Id="981742633" Language="SFX">
+							<ShortName>FS_Concrete-Stone_01.wav</ShortName>
+							<Path>SFX/FS_Concrete-Stone_01_6B489653.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="1921000341" Name="Reverb_Footsteps" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb_Footsteps"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="84044421" Name="Footsteps_R" ObjectPath="\Events\MainCharacter\Movement\MC Footsteps\Footsteps_R" MaxAttenuation="150.000000" DurationType="OneShot" DurationMin="0.039116" DurationMax="0.129819">
+					<IncludedMemoryFiles>
+						<File Id="293208567" Language="SFX">
+							<ShortName>FS_Concrete-Stone_04.wav</ShortName>
+							<Path>SFX/FS_Concrete-Stone_04_5D095723.wem</Path>
+						</File>
+						<File Id="443619244" Language="SFX">
+							<ShortName>FS_Concrete-Stone_02.wav</ShortName>
+							<Path>SFX/FS_Concrete-Stone_02_137CD786.wem</Path>
+						</File>
+						<File Id="669525631" Language="SFX">
+							<ShortName>FS_Concrete-Stone_03.wav</ShortName>
+							<Path>SFX/FS_Concrete-Stone_03_F15A5837.wem</Path>
+						</File>
+						<File Id="686217796" Language="SFX">
+							<ShortName>FS_Concrete-Stone_01.wav</ShortName>
+							<Path>SFX/FS_Concrete-Stone_01_B5EFF088.wem</Path>
+						</File>
+						<File Id="868296741" Language="SFX">
+							<ShortName>FS_Concrete-Stone_05.wav</ShortName>
+							<Path>SFX/FS_Concrete-Stone_05_23A7C4EC.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="1921000341" Name="Reverb_Footsteps" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb_Footsteps"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="3833651337" Name="Jump" ObjectPath="\Events\MainCharacter\Movement\Jump" MaxAttenuation="150.000000" DurationType="OneShot" DurationMin="0.164169" DurationMax="0.208992">
+					<IncludedMemoryFiles>
+						<File Id="198485450" Language="SFX">
+							<ShortName>Player_Jump_02.wav</ShortName>
+							<Path>SFX/Player_Jump_02_6315CD27.wem</Path>
+						</File>
+						<File Id="205261207" Language="SFX">
+							<ShortName>Player_Jump_03.wav</ShortName>
+							<Path>SFX/Player_Jump_03_6315CD27.wem</Path>
+						</File>
+						<File Id="427218386" Language="SFX">
+							<ShortName>Player_Jump_04.wav</ShortName>
+							<Path>SFX/Player_Jump_04_6315CD27.wem</Path>
+						</File>
+						<File Id="896850553" Language="SFX">
+							<ShortName>Player_Jump_01.wav</ShortName>
+							<Path>SFX/Player_Jump_01_6315CD27.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 					<AuxBusSends>
@@ -363,6 +432,29 @@
 						<ActionSetStateEntry Id="655265632" Name="Alive" ObjectPath="\States\Default Work Unit\PlayerLife\Alive"/>
 						<ActionSetStateEntry Id="2678230382" Name="Level1" ObjectPath="\States\Default Work Unit\MusicLevels\Level1"/>
 					</ActionSetState>
+				</Event>
+				<Event Id="2507361976" Name="Transporter_Beep" ObjectPath="\Events\MainCharacter\Movement\Transporter_Beep" MaxAttenuation="150.000000" DurationType="OneShot" DurationMin="0.220442" DurationMax="0.327151">
+					<IncludedMemoryFiles>
+						<File Id="156735400" Language="SFX">
+							<ShortName>DigitalBeeps11.wav</ShortName>
+							<Path>SFX/DigitalBeeps11_6315CD27.wem</Path>
+						</File>
+						<File Id="202305106" Language="SFX">
+							<ShortName>DigitalBeeps09.wav</ShortName>
+							<Path>SFX/DigitalBeeps09_6315CD27.wem</Path>
+						</File>
+						<File Id="341112781" Language="SFX">
+							<ShortName>DigitalBeeps05.wav</ShortName>
+							<Path>SFX/DigitalBeeps05_6315CD27.wem</Path>
+						</File>
+						<File Id="485061077" Language="SFX">
+							<ShortName>DigitalBeeps06.wav</ShortName>
+							<Path>SFX/DigitalBeeps06_6315CD27.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="1921000341" Name="Reverb_Footsteps" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb_Footsteps"/>
+					</AuxBusSends>
 				</Event>
 			</IncludedEvents>
 			<StateGroups>
