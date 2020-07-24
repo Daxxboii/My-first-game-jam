@@ -40,7 +40,7 @@ public class Player_animation : MonoBehaviour
     {
       
        
-        if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.LeftArrow))
+        if ((Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.LeftArrow) ) && (Input.GetKey(KeyCode.D) == false && Input.GetKey(KeyCode.RightArrow) == false))
         {
             flip = true;
             transform.localPosition = current_offset;
@@ -71,11 +71,15 @@ public class Player_animation : MonoBehaviour
                 }
             }
 
+            if ((Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.RightArrow))){
+                flip = true;
+            }
+
 
 
         }
         
-        else if (Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.RightArrow))
+      else if ((Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.RightArrow)) && (Input.GetKey(KeyCode.A) == false && Input.GetKey(KeyCode.LeftArrow) == false))
         {
             flip = false;
             transform.localPosition = current_offset;
@@ -98,6 +102,15 @@ public class Player_animation : MonoBehaviour
                 anim.SetInteger("Horizontal", 1);
                 anim.SetInteger("Vertical", -1);
                 transform.localPosition = offset;
+                if (Input.GetButton("Jump") || Input.GetKey(KeyCode.UpArrow) || Input.GetKey("w"))
+                {
+                    anim.SetInteger("Vertical", 1);
+                    transform.localPosition = current_offset;
+                }
+            }
+            if ((Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.LeftArrow)))
+            {
+                flip = false;
             }
         }
 

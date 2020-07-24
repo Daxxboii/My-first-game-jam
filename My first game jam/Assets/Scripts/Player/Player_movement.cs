@@ -84,7 +84,11 @@ public class Player_movement : MonoBehaviour
         float MoveX = Input.GetAxis("Horizontal");
         move.x = MoveX * move_details.speed;
 
+        // movemet restrain
 
+        if ((Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.LeftArrow)) &&  ((Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.RightArrow) ) )) {
+            move.x = 0;
+        }
         //Jump
         if (Is_Grounded && Input.GetButtonDown("Jump") || Is_Grounded && Input.GetKeyDown(KeyCode.UpArrow) || Is_Grounded && Input.GetKeyDown("w"))
         {
