@@ -12,6 +12,7 @@ public class Player_animation : MonoBehaviour
 {
     public Animator anim;
     public float crouch_offset;
+    public GameObject gun;
 
     private Quaternion flip_rotation;
     private Quaternion normal_rotation;
@@ -75,6 +76,7 @@ public class Player_animation : MonoBehaviour
                 flip = true;
             }
 
+           
 
 
         }
@@ -128,6 +130,7 @@ public class Player_animation : MonoBehaviour
            
         }
 
+     
        
 
 
@@ -135,7 +138,27 @@ public class Player_animation : MonoBehaviour
         {
             anim.SetInteger("Horizontal", 0);
             anim.SetInteger("Vertical", 0);
+            anim.SetBool("Shoot", false);
             transform.localPosition = current_offset;
+        }
+        if (Input.GetMouseButton(0) || Input.GetKey(KeyCode.KeypadEnter))
+        {
+            anim.SetBool("Shoot", true);
+        }
+        else
+        {
+            StartCoroutine(Wait());
+            anim.SetBool("Shoot", false);
+        }
+
+        if (anim.GetBool("Shoot"))
+        {
+            gun.SetActive(true);
+        }
+
+        else
+        {
+            gun.SetActive(false);
         }
         Flip();
       
@@ -158,5 +181,10 @@ public class Player_animation : MonoBehaviour
     void PlayTeleporterBeep()
     {
         TeleporterBeepSound.Post(gameObject);
+    }
+
+    IEnumerator Wait()
+    {
+        yield  return new WaitForSeconds(2);
     }
 }

@@ -4,16 +4,20 @@ using UnityEngine;
 
 public class Player_shoot : MonoBehaviour
 {
-    
-    // Start is called before the first frame update
-    void Start()
+    public GameObject particle_system;
+    public float Range;
+
+
+    void FixedUpdate()
     {
-        
+        RaycastHit hit;
+        if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.forward), out hit, Range))
+        {
+            if (hit.transform.gameObject.tag == "Enemy")
+            {
+
+            }
+        }
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }
