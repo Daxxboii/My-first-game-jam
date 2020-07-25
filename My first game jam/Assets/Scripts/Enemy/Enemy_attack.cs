@@ -10,7 +10,9 @@ public class Enemy_attack : MonoBehaviour
     public Enemy_details details;
     public NavMeshAgent Navmesh;
     private GameObject player;
-   
+
+
+    public Animator anim;
     public float range;
  
     private bool triggered;
@@ -26,6 +28,8 @@ public class Enemy_attack : MonoBehaviour
     private void Awake()
     {
         player = GameObject.FindWithTag("Player");
+        anim.SetBool("Stand", true);
+        anim.SetBool("Attack", false);
     }
 
 
@@ -36,6 +40,7 @@ public class Enemy_attack : MonoBehaviour
         {
             Navmesh.SetDestination(player.transform.position);
             triggered = true;
+            anim.SetBool("Stand", false);
         }
       
         if (details.type == Enemy_details.Type.shoot)
@@ -64,6 +69,8 @@ public class Enemy_attack : MonoBehaviour
     {
         if (collision.gameObject.tag == "Player")
         {
+            anim.SetBool("Attack", true);
+            anim.SetBool("Stand", true);
             hit = true;
             player_health = collision.gameObject.transform.GetComponent<Player_health>();
         }
@@ -71,6 +78,8 @@ public class Enemy_attack : MonoBehaviour
 
     private void OnCollisionExit(Collision collision)
     {
+        anim.SetBool("Attack", false);
+        anim.SetBool("Stand", false);
         hit = false;
 
     }
