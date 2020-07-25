@@ -36,7 +36,8 @@ public class Enemy_health : MonoBehaviour
     {
         if (health <= 0)
         {
-            Destroy(gameObject);
+            StartCoroutine(Fok());
+            health = 1f;
         }
     }
 
@@ -46,6 +47,12 @@ public class Enemy_health : MonoBehaviour
         {
             health -= 10f;
         }
+    }
+    public IEnumerator Fok()
+    {
+        yield return new WaitForSeconds(2);
+        Destroy(gameObject);
+       
     }
     
 }

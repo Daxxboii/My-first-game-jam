@@ -15,4 +15,4 @@ MonoBehaviour:
   health: 50
   hit_damage: 10
   type: 0
-  speed: 3
+  speed: 4
