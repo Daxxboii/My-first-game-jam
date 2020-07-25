@@ -4,9 +4,12 @@ using UnityEngine;
 
 public class Player_shoot : MonoBehaviour
 {
-    public GameObject particle_system;
+ 
     public float Range = 5f;
     public GameObject muzzle;
+    public float damage = 10f;
+
+    public ParticleSystem trail;
 
     private Enemy_health enemy_health;
     void FixedUpdate()
@@ -14,6 +17,12 @@ public class Player_shoot : MonoBehaviour
         if (Input.GetMouseButton(0))
         {
             Cast();
+            trail.Play();
+        }
+        else if (Input.GetMouseButtonUp(0))
+        {
+            enemy_health.hit = false;
+            trail.Stop();
         }
     }
 
@@ -26,7 +35,7 @@ public class Player_shoot : MonoBehaviour
             if (hit.transform.gameObject.tag == "Enemy")
             {
                 enemy_health = hit.transform.gameObject.GetComponent<Enemy_health>();
-
+                enemy_health.hit = true;
 
             }
         }

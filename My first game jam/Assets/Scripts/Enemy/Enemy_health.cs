@@ -11,14 +11,19 @@ public class Enemy_health : MonoBehaviour
     public Image fill;
 
     [HideInInspector]
-    private float health;
+    public bool hit;
+
+    [HideInInspector]
+    public float health;
 
     private void Awake()
     {
         health = details.health;
         health_slider.maxValue = health;
         health_slider.value = health;
-    }
+
+        InvokeRepeating("Hit", 0.5f,0.5f);
+   }
 
     private void FixedUpdate()
     {
@@ -35,5 +40,12 @@ public class Enemy_health : MonoBehaviour
         }
     }
 
-
+    public void Hit()
+    {
+        if (hit == true)
+        {
+            health -= 10f;
+        }
+    }
+    
 }

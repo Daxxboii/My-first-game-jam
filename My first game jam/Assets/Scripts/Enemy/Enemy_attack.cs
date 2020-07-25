@@ -12,8 +12,10 @@ public class Enemy_attack : MonoBehaviour
     private GameObject player;
    
     public float range;
-    private float dist;
+ 
     private bool triggered;
+
+
 
     public Transform muzzle = null;
     public GameObject bullet = null;
@@ -58,7 +60,7 @@ public class Enemy_attack : MonoBehaviour
         Instantiate(bullet, muzzle);
     }
 
-    private void OnCollision(Collision collision)
+    private void OnCollisionEnter(Collision collision)
     {
         if (collision.gameObject.tag == "Player")
         {
@@ -66,12 +68,22 @@ public class Enemy_attack : MonoBehaviour
             player_health = collision.gameObject.transform.GetComponent<Player_health>();
         }
     }
+
+    private void OnCollisionExit(Collision collision)
+    {
+        hit = false;
+
+    }
     void Meelee()
     {
         if(hit == true)
         {
-            player_health.player_health -= details.hit_damage;
-            hit = false;
+            player_health.hit = true;
+            
+        }
+        else
+        {
+            player_health.hit = false;
         }
     }
 }

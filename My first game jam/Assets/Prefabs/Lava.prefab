@@ -424,8 +424,8 @@ GameObject:
   - component: {fileID: 820116027060003291}
   - component: {fileID: 693021527}
   m_Layer: 0
-  m_Name: Enemy
-  m_TagString: Untagged
+  m_Name: Lava
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -502,7 +502,7 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: 0.5
+  m_Radius: 1.12
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
@@ -536,7 +536,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   details: {fileID: 11400000, guid: 19e4570257c528f48a60022de3d7dded, type: 2}
   Navmesh: {fileID: 693021527}
-  range: 1.1
+  range: 20
   muzzle: {fileID: 0}
   bullet: {fileID: 0}
 --- !u!114 &820116027060003291
@@ -556,7 +556,7 @@ MonoBehaviour:
   health_color:
     serializedVersion: 2
     key0: {r: 1, g: 0, b: 0, a: 1}
-    key1: {r: 1, g: 0.3420852, b: 0, a: 1}
+    key1: {r: 0, g: 1, b: 0.2829156, a: 1}
     key2: {r: 0, g: 0, b: 0, a: 0}
     key3: {r: 0, g: 0, b: 0, a: 0}
     key4: {r: 0, g: 0, b: 0, a: 0}
@@ -583,6 +583,8 @@ MonoBehaviour:
     m_NumColorKeys: 2
     m_NumAlphaKeys: 2
   fill: {fileID: 568238875}
+  hit: 0
+  health: 0
 --- !u!195 &693021527
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -592,8 +594,8 @@ NavMeshAgent:
   m_GameObject: {fileID: 820116027060003281}
   m_Enabled: 1
   m_AgentTypeID: 0
-  m_Radius: 0.5
-  m_Speed: 3.5
+  m_Radius: 0.32
+  m_Speed: 7
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120

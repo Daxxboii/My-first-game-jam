@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Lava
   m_EditorClassIdentifier: 
   health: 50
-  hit_damage: 5
+  hit_damage: 10
   type: 0
-  speed: 0.06
+  speed: 3

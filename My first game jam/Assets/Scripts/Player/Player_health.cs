@@ -16,6 +16,9 @@ public class Player_health : MonoBehaviour
     private Player_details details;
     private Player_movement move_script;
 
+    [HideInInspector]
+    public bool hit;
+
     void Awake()
     {
         move_script = this.gameObject.transform.GetComponent<Player_movement>();
@@ -25,6 +28,8 @@ public class Player_health : MonoBehaviour
         player_health = details.health;
         health_slider.maxValue = player_health;
         health_slider.value = player_health;
+
+        InvokeRepeating("Hit", 0.5f, 0.5f);
     }
 
     void FixedUpdate()
@@ -34,6 +39,21 @@ public class Player_health : MonoBehaviour
         Die();
     }
 
+    public void Hit()
+    {
+        if(hit == true)
+        {
+            player_health -= 10f;
+        }
+    }
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.tag == "Bullet")
+        {
+            player_health -= 30f;
+            Destroy(collision.gameObject);
+        }
+    }
     public void Die()
     {
         if (player_health <= 0)
