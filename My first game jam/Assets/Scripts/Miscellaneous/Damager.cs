@@ -11,7 +11,7 @@ public class Damager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        InvokeRepeating("Hit", 0f, 1f);
+        InvokeRepeating("Hit", 0f,0.3f);
     }
 
     private void OnTriggerEnter(Collider collision)

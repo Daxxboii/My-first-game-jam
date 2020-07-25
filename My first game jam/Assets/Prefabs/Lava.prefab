@@ -587,6 +587,8 @@ MonoBehaviour:
   fill: {fileID: 568238875}
   hit: 0
   health: 0
+  anim: {fileID: 8226776413886619903}
+  attack: {fileID: 820116027060003290}
 --- !u!195 &693021527
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -601,7 +603,7 @@ NavMeshAgent:
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 360
-  m_StoppingDistance: 0.1
+  m_StoppingDistance: 0
   m_AutoTraverseOffMeshLink: 1
   m_AutoBraking: 1
   m_AutoRepath: 1

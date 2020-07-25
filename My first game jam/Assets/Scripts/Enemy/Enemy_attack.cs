@@ -41,6 +41,7 @@ public class Enemy_attack : MonoBehaviour
             Navmesh.SetDestination(player.transform.position);
             triggered = true;
             anim.SetBool("Stand", false);
+            anim.SetBool("Attack", false);
         }
       
         if (details.type == Enemy_details.Type.shoot)
@@ -65,7 +66,7 @@ public class Enemy_attack : MonoBehaviour
         Instantiate(bullet, muzzle);
     }
 
-    private void OnCollisionEnter(Collision collision)
+    private void OnCollisionStay(Collision collision)
     {
         if (collision.gameObject.tag == "Player")
         {
@@ -78,9 +79,8 @@ public class Enemy_attack : MonoBehaviour
 
     private void OnCollisionExit(Collision collision)
     {
-        anim.SetBool("Attack", false);
-        anim.SetBool("Stand", false);
-        hit = false;
+        Exit();
+        
 
     }
     void Meelee()
@@ -94,5 +94,11 @@ public class Enemy_attack : MonoBehaviour
         {
             player_health.hit = false;
         }
+    }
+    public void Exit()
+    {
+        anim.SetBool("Attack", false);
+        anim.SetBool("Stand", false);
+        hit = false;
     }
 }

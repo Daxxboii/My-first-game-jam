@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 207cef7d90d93e14b8e682c11509ba53, type: 3}
   m_Name: Lava
   m_EditorClassIdentifier: 
-  health: 50
+  health: 100
   hit_damage: 10
   type: 0
-  speed: 4
+  speed: 2

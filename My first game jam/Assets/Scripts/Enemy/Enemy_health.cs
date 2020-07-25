@@ -15,6 +15,8 @@ public class Enemy_health : MonoBehaviour
 
     [HideInInspector]
     public float health;
+    public Animator anim;
+    public Enemy_attack attack;
 
     private void Awake()
     {
@@ -45,11 +47,17 @@ public class Enemy_health : MonoBehaviour
     {
         if (hit == true)
         {
-            health -= 10f;
+            health -= 5f;
         }
     }
     public IEnumerator Fok()
     {
+        attack.Exit();
+        attack.enabled = false;
+
+        anim.SetBool("Attack", false);
+        anim.SetBool("Stand", false);
+        anim.SetBool("Die", true);
         yield return new WaitForSeconds(2);
         Destroy(gameObject);
        
