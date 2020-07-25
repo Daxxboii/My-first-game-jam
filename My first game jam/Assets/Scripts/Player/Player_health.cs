@@ -48,7 +48,7 @@ public class Player_health : MonoBehaviour
     }
     private void OnCollisionEnter(Collision collision)
     {
-        if (collision.gameObject.tag == "Bullet")
+        if (collision.gameObject.tag == "Bullet" )
         {
             player_health -= 30f;
             Destroy(collision.gameObject);
