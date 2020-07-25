@@ -3,15 +3,15 @@
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using JetBrains.Annotations;
 
 public class Manager_scenes : MonoBehaviour
 {
-    public GameObject white_screen;
-    public Slider loading;
+    public GameObject LoadScreen;
 
     private void Awake()
     {
-        white_screen.SetActive(false);
+       
     }
     public void LoadLevel (int index)
     {
@@ -20,12 +20,13 @@ public class Manager_scenes : MonoBehaviour
 
     IEnumerator LoadAsynchronously(int index)
     {
+        LoadScreen.SetActive(true);
+        yield return new WaitForSeconds(5);
+     
         AsyncOperation operation = SceneManager.LoadSceneAsync(index);
         while (!operation.isDone)
         {
-            white_screen.SetActive(true);
-            float progress = Mathf.Clamp01(operation.progress / .9f);
-            loading.value = progress;
+          
             yield return null;
         }
         

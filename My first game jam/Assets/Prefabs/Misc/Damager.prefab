@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 1151260076313278826}
   - component: {fileID: 8324266882890238090}
   - component: {fileID: -2802824430913908585}
+  - component: {fileID: 2105141415607483249}
   m_Layer: 0
   m_Name: Damager
   m_TagString: Untagged
@@ -56,5 +57,17 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 7.8266993, y: 2.4328992, z: 2.3355188}
-  m_Center: {x: -1.9192958, y: 0.7164496, z: 0.19240522}
+  m_Size: {x: 3.260809, y: 0.9081907, z: 2.3355188}
+  m_Center: {x: -0.80185413, y: -0.045904636, z: 0.19240522}
+--- !u!114 &2105141415607483249
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1151260076313278827}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82c32729de10684468fdb8e46a3c063e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

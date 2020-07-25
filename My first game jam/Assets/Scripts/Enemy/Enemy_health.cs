@@ -9,7 +9,7 @@ public class Enemy_health : MonoBehaviour
     public Slider health_slider;
     public Gradient health_color;
     public Image fill;
-
+    public CapsuleCollider collider;
     [HideInInspector]
     public bool hit;
 
@@ -23,7 +23,7 @@ public class Enemy_health : MonoBehaviour
         health = details.health;
         health_slider.maxValue = health;
         health_slider.value = health;
-
+       
         InvokeRepeating("Hit", 0.5f,0.5f);
    }
 
@@ -52,11 +52,12 @@ public class Enemy_health : MonoBehaviour
     }
     public IEnumerator Fok()
     {
+        collider.enabled = false;
         attack.Exit();
         attack.enabled = false;
 
         anim.SetBool("Attack", false);
-        anim.SetBool("Stand", false);
+      
         anim.SetBool("Die", true);
         yield return new WaitForSeconds(2);
         Destroy(gameObject);

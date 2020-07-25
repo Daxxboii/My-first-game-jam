@@ -23,12 +23,14 @@ public class Enemy_attack : MonoBehaviour
     public GameObject bullet = null;
 
     private bool hit;
+  
+
     private Player_health player_health;
 
     private void Awake()
     {
         player = GameObject.FindWithTag("Player");
-        anim.SetBool("Stand", true);
+        player_health = player.transform.GetComponent<Player_health>();
         anim.SetBool("Attack", false);
     }
 
@@ -40,7 +42,7 @@ public class Enemy_attack : MonoBehaviour
         {
             Navmesh.SetDestination(player.transform.position);
             triggered = true;
-            anim.SetBool("Stand", false);
+           
             anim.SetBool("Attack", false);
         }
       
@@ -71,9 +73,21 @@ public class Enemy_attack : MonoBehaviour
         if (collision.gameObject.tag == "Player")
         {
             anim.SetBool("Attack", true);
-            anim.SetBool("Stand", true);
+            
+            
             hit = true;
-            player_health = collision.gameObject.transform.GetComponent<Player_health>();
+          
+        }
+    }
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.tag == "Player")
+        {
+            anim.SetBool("Attack", true);
+
+
+            hit = true;
+       
         }
     }
 
@@ -98,7 +112,8 @@ public class Enemy_attack : MonoBehaviour
     public void Exit()
     {
         anim.SetBool("Attack", false);
-        anim.SetBool("Stand", false);
+        player_health.hit = false;
+        
         hit = false;
     }
 }

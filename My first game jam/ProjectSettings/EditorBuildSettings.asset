@@ -14,4 +14,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Final_scenes/Tutorial.unity
     guid: ce357c7a986de5348aa10a75470345bb
+  - enabled: 1
+    path: Assets/Scenes/Final_scenes/Lava.unity
+    guid: 3659f2af08938664389794baceb0d9b0
+  - enabled: 1
+    path: Assets/Scenes/Final_scenes/Lava2.unity
+    guid: 6d2e588204a4e1e49b7291062a9ec695
+  - enabled: 1
+    path: Assets/Scenes/Final_scenes/Poison1.unity
+    guid: 710f63c5ceacd064a8ec3402ccd980d0
   m_configObjects: {}
