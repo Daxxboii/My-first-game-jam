@@ -51,8 +51,17 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 6e4296edd05357438498712ad2d03d23
     GuidInternal: 
-    m_lastTime: -8586068528514775808
+    m_lastTime: -8586059571174775808
     List:
+    - name: General
+      guid: 7e4d8cc1e6940944867453c81c4752cf
+      id: 133642231
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: General
+        ObjectType: 7
+      Path: Default Work Unit/General
     - name: Music
       guid: 4e069610d98dc243b537bf5341449829
       id: 3991942870
@@ -225,7 +234,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit/Music
     guid: 279369222fcd7c4286bdf9cdff023ff0
     GuidInternal: 
-    m_lastTime: -8586066857924775808
+    m_lastTime: -8586066798934775808
     List:
     - name: Music
       guid: 3a452c017991a14d90b91d13aa6e7be7
@@ -253,13 +262,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: a5d151c23ed2374c9ba0b0aa67e157c5
     GuidInternal: 
-    m_lastTime: -8586066874694775808
-    List: []
-  - PhysicalPath: States/MusicStates.wwu
-    ParentPath: Default Work Unit/MusicStates
-    guid: 113ec584a0c85844a1f6dc2b4a0ce63d
-    GuidInternal: 
-    m_lastTime: -8586066873854775808
+    m_lastTime: -8586059575324775808
     List:
     - name: MusicLevels
       guid: 84ec49a13bf8304aab405f7c0c18242e
@@ -267,11 +270,9 @@ MonoBehaviour:
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
-      - ElementName: MusicStates
-        ObjectType: 12
       - ElementName: MusicLevels
         ObjectType: 9
-      Path: Default Work Unit/MusicStates/MusicLevels
+      Path: Default Work Unit/MusicLevels
       values:
       - name: Level1
         guid: 9cd02fe2f6af644fa0b22a5d78e00ab2
@@ -284,6 +285,12 @@ MonoBehaviour:
         id: 2678230381
         PathAndIcons:
         - ElementName: Level2
+          ObjectType: 8
+      - name: Menus
+        guid: 5dbee455b44f5443b107c0ba68dd97ec
+        id: 2604644515
+        PathAndIcons:
+        - ElementName: Menus
           ObjectType: 8
       - name: None
         guid: 69d776cae96b604281f126abb151aba4
@@ -300,11 +307,9 @@ MonoBehaviour:
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
-      - ElementName: MusicStates
-        ObjectType: 12
       - ElementName: PlayerLife
         ObjectType: 9
-      Path: Default Work Unit/MusicStates/PlayerLife
+      Path: Default Work Unit/PlayerLife
       values:
       - name: Alive
         guid: e7aa933da9f3f9458a51a803a1bcece4
@@ -327,6 +332,12 @@ MonoBehaviour:
       ValueGuids: []
       ValueIcons: []
       valuesInternal: []
+  - PhysicalPath: States/MusicStates.wwu
+    ParentPath: Default Work Unit/MusicStates
+    guid: 113ec584a0c85844a1f6dc2b4a0ce63d
+    GuidInternal: 
+    m_lastTime: -8586066798934775808
+    List: []
   SwitchWwu:
   - PhysicalPath: Switches/Default Work Unit.wwu
     ParentPath: Default Work Unit
@@ -343,10 +354,8 @@ MonoBehaviour:
     List: []
   ExpandedItems:
   - /My first game jam_WwiseProject
-  - /My first game jam_WwiseProject/Events
-  - /My first game jam_WwiseProject/Events/Ambient
-  - /My first game jam_WwiseProject/Events/Ambient/General
-  - /My first game jam_WwiseProject/Events/Default Work Unit
-  - /My first game jam_WwiseProject/Events/Default Work Unit/Music
+  - /My first game jam_WwiseProject/States
+  - /My first game jam_WwiseProject/States/Default Work Unit
+  - /My first game jam_WwiseProject/States/Default Work Unit/MusicLevels
   autoPopulateEnabled: 1
   CurrentPluginConfig: 

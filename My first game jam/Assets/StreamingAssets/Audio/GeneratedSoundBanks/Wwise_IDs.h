@@ -33,6 +33,7 @@ namespace AK
             {
                 static const AkUniqueID LEVEL1 = 2678230382U;
                 static const AkUniqueID LEVEL2 = 2678230381U;
+                static const AkUniqueID MENUS = 2604644515U;
                 static const AkUniqueID NONE = 748895195U;
             } // namespace STATE
         } // namespace MUSICLEVELS

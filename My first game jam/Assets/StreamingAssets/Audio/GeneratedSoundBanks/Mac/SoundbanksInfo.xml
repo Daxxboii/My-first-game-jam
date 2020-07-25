@@ -67,7 +67,7 @@
 					<IncludedMemoryFiles>
 						<File Id="651055783" Language="SFX">
 							<ShortName>door_open_004.wav</ShortName>
-							<Path>SFX/door_open_004_EA6416CF.wem</Path>
+							<Path>SFX/door_open_004_2E60A6E9.wem</Path>
 						</File>
 						<File Id="917472053" Language="SFX">
 							<ShortName>door_open_004.wav</ShortName>
@@ -161,17 +161,33 @@
 							<ShortName>Level 1 Intro - Default\MFGJ_Intro_Strings_140bpm_4-4_L16M-P1.wav</ShortName>
 							<Path>SFX/Level 1 Intro - Default/MFGJ_Intro_Strings_140bpm_4-4_L16M-P1_72728EC5.wem</Path>
 						</File>
+						<File Id="47362604" Language="SFX">
+							<ShortName>MFGJ_Menus-A2-StringsMArcato.wav</ShortName>
+							<Path>SFX/MFGJ_Menus-A2-StringsMArcato_72728EC5.wem</Path>
+						</File>
 						<File Id="52835095" Language="SFX">
 							<ShortName>Level_2_A_colLegno.wav</ShortName>
 							<Path>SFX/Level_2_A_colLegno_72728EC5.wem</Path>
+						</File>
+						<File Id="94385810" Language="SFX">
+							<ShortName>MFGJ_Menus-A2-StringsTrem.wav</ShortName>
+							<Path>SFX/MFGJ_Menus-A2-StringsTrem_72728EC5.wem</Path>
 						</File>
 						<File Id="102475099" Language="SFX">
 							<ShortName>Level 1 Intro - Default\MFGJ_Intro_Bass-Piano-1_140bpm_4-4_L16M-P1.wav</ShortName>
 							<Path>SFX/Level 1 Intro - Default/MFGJ_Intro_Bass-Piano-1_140bpm_4-4_L16M-P1_72728EC5.wem</Path>
 						</File>
+						<File Id="112919411" Language="SFX">
+							<ShortName>MFGJ_Menus-A2-Evolve.wav</ShortName>
+							<Path>SFX/MFGJ_Menus-A2-Evolve_72728EC5.wem</Path>
+						</File>
 						<File Id="113917619" Language="SFX">
 							<ShortName>Level_2_A_DB.wav</ShortName>
 							<Path>SFX/Level_2_A_DB_33DDF687.wem</Path>
+						</File>
+						<File Id="151820228" Language="SFX">
+							<ShortName>MFGJ_Menus-Intro-Piano1.wav</ShortName>
+							<Path>SFX/MFGJ_Menus-Intro-Piano1_6962E711.wem</Path>
 						</File>
 						<File Id="155437375" Language="SFX">
 							<ShortName>Level_2_A_Horns 1.wav</ShortName>
@@ -189,6 +205,10 @@
 							<ShortName>Level 1 Intro - Default\MFGJ_Intro_Hi-Hat_140bpm_4-4_L16M-P1.wav</ShortName>
 							<Path>SFX/Level 1 Intro - Default/MFGJ_Intro_Hi-Hat_140bpm_4-4_L16M-P1_72728EC5.wem</Path>
 						</File>
+						<File Id="189543507" Language="SFX">
+							<ShortName>MFGJ_Menus-A2- Drums.wav</ShortName>
+							<Path>SFX/MFGJ_Menus-A2- Drums_72728EC5.wem</Path>
+						</File>
 						<File Id="203473090" Language="SFX">
 							<ShortName>Level_2_A_Strings.wav</ShortName>
 							<Path>SFX/Level_2_A_Strings_72728EC5.wem</Path>
@@ -201,6 +221,10 @@
 							<ShortName>Level 1 Intro - Default\MFGJ_Intro_Percussions_140bpm_4-4_L16M-P1.wav</ShortName>
 							<Path>SFX/Level 1 Intro - Default/MFGJ_Intro_Percussions_140bpm_4-4_L16M-P1_72728EC5.wem</Path>
 						</File>
+						<File Id="244731433" Language="SFX">
+							<ShortName>MFGJ_Menus-Intro-Trumpet Solo.wav</ShortName>
+							<Path>SFX/MFGJ_Menus-Intro-Trumpet Solo_72728EC5.wem</Path>
+						</File>
 						<File Id="251857416" Language="SFX">
 							<ShortName>MFGJ_Level1-Theme_ELGuitRhy_140bpm_4-4_L16M.wav</ShortName>
 							<Path>SFX/MFGJ_Level1-Theme_ELGuitRhy_140bpm_4-4_L16M_72728EC5.wem</Path>
@@ -209,6 +233,10 @@
 							<ShortName>Level 1 Intro - Default\MFGJ_Intro_HighStrings_140bpm_4-4_L16M-P1.wav</ShortName>
 							<Path>SFX/Level 1 Intro - Default/MFGJ_Intro_HighStrings_140bpm_4-4_L16M-P1_33DDF687.wem</Path>
 						</File>
+						<File Id="307389220" Language="SFX">
+							<ShortName>MFGJ_Menus-A2-HOrnsMelody.wav</ShortName>
+							<Path>SFX/MFGJ_Menus-A2-HOrnsMelody_72728EC5.wem</Path>
+						</File>
 						<File Id="319330156" Language="SFX">
 							<ShortName>Level_2_A_Marcato.wav</ShortName>
 							<Path>SFX/Level_2_A_Marcato_72728EC5.wem</Path>
@@ -216,6 +244,10 @@
 						<File Id="331787506" Language="SFX">
 							<ShortName>Death.wav</ShortName>
 							<Path>SFX/Death_72728EC5.wem</Path>
+						</File>
+						<File Id="375651335" Language="SFX">
+							<ShortName>MFGJ_Menus-A-Horn.wav</ShortName>
+							<Path>SFX/MFGJ_Menus-A-Horn_72728EC5.wem</Path>
 						</File>
 						<File Id="393409215" Language="SFX">
 							<ShortName>MFGJ_Level1-Theme_Bass2_140bpm_4-4_L16M.wav</ShortName>
@@ -228,6 +260,10 @@
 						<File Id="438196659" Language="SFX">
 							<ShortName>Level_2_A_MarcatoHigh.wav</ShortName>
 							<Path>SFX/Level_2_A_MarcatoHigh_72728EC5.wem</Path>
+						</File>
+						<File Id="486206881" Language="SFX">
+							<ShortName>MFGJ_Menus-Intro-Piano2.wav</ShortName>
+							<Path>SFX/MFGJ_Menus-Intro-Piano2_72728EC5.wem</Path>
 						</File>
 						<File Id="529796273" Language="SFX">
 							<ShortName>Level_2_A_Bass.wav</ShortName>
@@ -253,6 +289,14 @@
 							<ShortName>MFGJ_Level1-Theme_BassPno_140bpm_4-4_L16M.wav</ShortName>
 							<Path>SFX/MFGJ_Level1-Theme_BassPno_140bpm_4-4_L16M_FCA1C42F.wem</Path>
 						</File>
+						<File Id="601294208" Language="SFX">
+							<ShortName>MFGJ_Menus-A-Trumpets.wav</ShortName>
+							<Path>SFX/MFGJ_Menus-A-Trumpets_72728EC5.wem</Path>
+						</File>
+						<File Id="613508344" Language="SFX">
+							<ShortName>MFGJ_Menus-Intro-Strings.wav</ShortName>
+							<Path>SFX/MFGJ_Menus-Intro-Strings_72728EC5.wem</Path>
+						</File>
 						<File Id="633317938" Language="SFX">
 							<ShortName>Level_2_A_percussion2.wav</ShortName>
 							<Path>SFX/Level_2_A_percussion2_72728EC5.wem</Path>
@@ -265,9 +309,25 @@
 							<ShortName>Level_2_A_Piano1.wav</ShortName>
 							<Path>SFX/Level_2_A_Piano1_72728EC5.wem</Path>
 						</File>
+						<File Id="656943678" Language="SFX">
+							<ShortName>MFGJ_Menus-A2-Horns.wav</ShortName>
+							<Path>SFX/MFGJ_Menus-A2-Horns_72728EC5.wem</Path>
+						</File>
+						<File Id="660196767" Language="SFX">
+							<ShortName>MFGJ_Menus-A2- BrassStacc.wav</ShortName>
+							<Path>SFX/MFGJ_Menus-A2- BrassStacc_72728EC5.wem</Path>
+						</File>
 						<File Id="665690802" Language="SFX">
 							<ShortName>Level_2_Bridge.wav</ShortName>
 							<Path>SFX/Level_2_Bridge_72728EC5.wem</Path>
+						</File>
+						<File Id="708982583" Language="SFX">
+							<ShortName>MFGJ_Menus-A-Celli.wav</ShortName>
+							<Path>SFX/MFGJ_Menus-A-Celli_72728EC5.wem</Path>
+						</File>
+						<File Id="717650774" Language="SFX">
+							<ShortName>MFGJ_Menus-A2-Piano.wav</ShortName>
+							<Path>SFX/MFGJ_Menus-A2-Piano_72728EC5.wem</Path>
 						</File>
 						<File Id="720227554" Language="SFX">
 							<ShortName>Level 1 Intro - Default\MFGJ_Intro_Bass-Melody1FireFlies_140bpm_4-4_L8M.wav</ShortName>
@@ -281,13 +341,33 @@
 							<ShortName>MFGJ_Level1-Theme_Bass_140bpm_4-4_L16M.wav</ShortName>
 							<Path>SFX/MFGJ_Level1-Theme_Bass_140bpm_4-4_L16M_FCA1C42F.wem</Path>
 						</File>
+						<File Id="788222594" Language="SFX">
+							<ShortName>MFGJ_Menus-A-Drums_1.wav</ShortName>
+							<Path>SFX/MFGJ_Menus-A-Drums_1_72728EC5.wem</Path>
+						</File>
 						<File Id="833433290" Language="SFX">
 							<ShortName>Level 1 Intro - Default\MFGJ_Intro_Celli_140bpm_4-4_L16M-P1.wav</ShortName>
 							<Path>SFX/Level 1 Intro - Default/MFGJ_Intro_Celli_140bpm_4-4_L16M-P1_72728EC5.wem</Path>
 						</File>
+						<File Id="844262149" Language="SFX">
+							<ShortName>MFGJ_Menus-A2-StringsTremHigh.wav</ShortName>
+							<Path>SFX/MFGJ_Menus-A2-StringsTremHigh_72728EC5.wem</Path>
+						</File>
 						<File Id="863391658" Language="SFX">
 							<ShortName>Level 1 Intro - Default\MFGJ_Intro_Shaker_140bpm_4-4_L16M-P1.wav</ShortName>
 							<Path>SFX/Level 1 Intro - Default/MFGJ_Intro_Shaker_140bpm_4-4_L16M-P1_72728EC5.wem</Path>
+						</File>
+						<File Id="867313638" Language="SFX">
+							<ShortName>MFGJ_Menus-Intro-Piano1.wav</ShortName>
+							<Path>SFX/MFGJ_Menus-Intro-Piano1_72728EC5.wem</Path>
+						</File>
+						<File Id="869220254" Language="SFX">
+							<ShortName>MFGJ_Menus-A2- Basses.wav</ShortName>
+							<Path>SFX/MFGJ_Menus-A2- Basses_72728EC5.wem</Path>
+						</File>
+						<File Id="919694164" Language="SFX">
+							<ShortName>MFGJ_Menus-A2-Trumpet.wav</ShortName>
+							<Path>SFX/MFGJ_Menus-A2-Trumpet_CED47F66.wem</Path>
 						</File>
 						<File Id="923134819" Language="SFX">
 							<ShortName>Level_2_A_DB.wav</ShortName>
@@ -296,6 +376,14 @@
 						<File Id="940831556" Language="SFX">
 							<ShortName>MFGJ_Level1-Theme_MarcStrgs_140bpm_4-4_L16M.wav</ShortName>
 							<Path>SFX/MFGJ_Level1-Theme_MarcStrgs_140bpm_4-4_L16M_72728EC5.wem</Path>
+						</File>
+						<File Id="941613740" Language="SFX">
+							<ShortName>MFGJ_Menus-A2-Strings.wav</ShortName>
+							<Path>SFX/MFGJ_Menus-A2-Strings_72728EC5.wem</Path>
+						</File>
+						<File Id="949976413" Language="SFX">
+							<ShortName>MFGJ_Menus-A2-CelloMelody.wav</ShortName>
+							<Path>SFX/MFGJ_Menus-A2-CelloMelody_DBFED6BD.wem</Path>
 						</File>
 						<File Id="952838122" Language="SFX">
 							<ShortName>Level 1 Intro - Default\MFGJ_Intro_Celli+DB_140bpm_4-4_L16M-P1.wav</ShortName>
@@ -336,6 +424,10 @@
 						<File Id="1063155371" Language="SFX">
 							<ShortName>MFGJ_Level1-Theme_Melody1 Brass_140bpm_4-4_L16M.wav</ShortName>
 							<Path>SFX/MFGJ_Level1-Theme_Melody1 Brass_140bpm_4-4_L16M_72728EC5.wem</Path>
+						</File>
+						<File Id="1069130785" Language="SFX">
+							<ShortName>MFGJ_Menus-A2-Basses&amp;Timp.wav</ShortName>
+							<Path>SFX/MFGJ_Menus-A2-Basses&amp;Timp_72728EC5.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 					<SwitchContainers>
@@ -427,11 +519,60 @@
 								</SwitchContainer>
 							</Children>
 						</SwitchContainer>
+						<SwitchContainer SwitchValue="{63AF2FFB-4FB4-4309-88EB-6CBC58C11049}">
+							<Children>
+								<SwitchContainer SwitchValue="{55E4BE5D-4FB4-4354-B107-C0BA68DD97EC}">
+									<Media>
+										<File Id="867313638"/>
+										<File Id="613508344"/>
+										<File Id="1006991332"/>
+										<File Id="952838122"/>
+										<File Id="833433290"/>
+										<File Id="244731433"/>
+										<File Id="413411375"/>
+										<File Id="660196767"/>
+										<File Id="189543507"/>
+										<File Id="869220254"/>
+										<File Id="94385810"/>
+										<File Id="844262149"/>
+										<File Id="47362604"/>
+										<File Id="656943678"/>
+										<File Id="413411375"/>
+										<File Id="919694164"/>
+										<File Id="151820228"/>
+										<File Id="863391658"/>
+										<File Id="413411375"/>
+										<File Id="112919411"/>
+										<File Id="1069130785"/>
+										<File Id="941613740"/>
+										<File Id="717650774"/>
+										<File Id="949976413"/>
+										<File Id="307389220"/>
+										<File Id="1006991332"/>
+										<File Id="952838122"/>
+										<File Id="833433290"/>
+										<File Id="486206881"/>
+										<File Id="613508344"/>
+										<File Id="244731433"/>
+										<File Id="601294208"/>
+										<File Id="413411375"/>
+										<File Id="375651335"/>
+										<File Id="708982583"/>
+										<File Id="788222594"/>
+										<File Id="867313638"/>
+										<File Id="486206881"/>
+										<File Id="613508344"/>
+										<File Id="1006991332"/>
+										<File Id="952838122"/>
+										<File Id="833433290"/>
+										<File Id="244731433"/>
+										<File Id="413411375"/>
+										<File Id="844262149"/>
+									</Media>
+								</SwitchContainer>
+							</Children>
+						</SwitchContainer>
 					</SwitchContainers>
-					<ActionSetState>
-						<ActionSetStateEntry Id="655265632" Name="Alive" ObjectPath="\States\Default Work Unit\PlayerLife\Alive"/>
-						<ActionSetStateEntry Id="2678230382" Name="Level1" ObjectPath="\States\Default Work Unit\MusicLevels\Level1"/>
-					</ActionSetState>
 				</Event>
 				<Event Id="2507361976" Name="Transporter_Beep" ObjectPath="\Events\MainCharacter\Movement\Transporter_Beep" MaxAttenuation="150.000000" DurationType="OneShot" DurationMin="0.220442" DurationMax="0.327151">
 					<IncludedMemoryFiles>
@@ -465,17 +606,12 @@
 						<State Id="2044049779" Name="Dead" ObjectPath="\States\Default Work Unit\PlayerLife\Dead"/>
 					</States>
 				</StateGroup>
-				<StateGroup Id="655265632" Name="Alive" ObjectPath="\States\Default Work Unit\PlayerLife\Alive">
-					<States/>
-				</StateGroup>
-				<StateGroup Id="2678230382" Name="Level1" ObjectPath="\States\Default Work Unit\MusicLevels\Level1">
-					<States/>
-				</StateGroup>
 				<StateGroup Id="4206939811" Name="MusicLevels" ObjectPath="\States\Default Work Unit\MusicLevels">
 					<States>
 						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\MusicLevels\None"/>
 						<State Id="2678230382" Name="Level1" ObjectPath="\States\Default Work Unit\MusicLevels\Level1"/>
 						<State Id="2678230381" Name="Level2" ObjectPath="\States\Default Work Unit\MusicLevels\Level2"/>
+						<State Id="2604644515" Name="Menus" ObjectPath="\States\Default Work Unit\MusicLevels\Menus"/>
 					</States>
 				</StateGroup>
 			</StateGroups>
