@@ -1,0 +1,36 @@
+Event	ID	Name			Wwise Object Path	Notes
+	84044421	Footsteps_R			\MainCharacter\Movement\MC Footsteps\Footsteps_R	
+	84044443	Footsteps_L			\MainCharacter\Movement\MC Footsteps\Footsteps_L	
+	535830432	Door_Open			\Ambient\General\Door_Open	
+	1828056235	Fire_Pistol_Player			\MainCharacter\Weapons\Fire_Pistol_Player	
+	1917408972	Ambient_Rooflight			\Ambient\General\Ambient_Rooflight	
+	2507361976	Transporter_Beep			\MainCharacter\Movement\Transporter_Beep	
+	2655407367	Crouch			\MainCharacter\Movement\Crouch	
+	3833651337	Jump			\MainCharacter\Movement\Jump	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	74584598	Crouch_01	Y:\Documents\Spring_2020\Videogames\MyFirstGameJam\My first game jam_WwiseProject\.cache\Windows\SFX\Leather_Jacket_Movement_Rustle_Scrunches_OCP-1543-51_269617BC.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Movement\Crouch\Crouch_01		27257
+	156735400	DigitalBeeps11	Y:\Documents\Spring_2020\Videogames\MyFirstGameJam\My first game jam_WwiseProject\.cache\Windows\SFX\DigitalBeeps11_6315CD27.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Movement\Transporter\DigitalBeeps11		5436
+	198485450	Player_Jump_02	Y:\Documents\Spring_2020\Videogames\MyFirstGameJam\My first game jam_WwiseProject\.cache\Windows\SFX\Player_Jump_02_6315CD27.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Movement\Jump\Player_Jump_02		2109
+	202305106	DigitalBeeps09	Y:\Documents\Spring_2020\Videogames\MyFirstGameJam\My first game jam_WwiseProject\.cache\Windows\SFX\DigitalBeeps09_6315CD27.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Movement\Transporter\DigitalBeeps09		5549
+	205261207	Player_Jump_03	Y:\Documents\Spring_2020\Videogames\MyFirstGameJam\My first game jam_WwiseProject\.cache\Windows\SFX\Player_Jump_03_6315CD27.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Movement\Jump\Player_Jump_03		2045
+	293208567	FS_Concrete-Stone_04	Y:\Documents\Spring_2020\Videogames\MyFirstGameJam\My first game jam_WwiseProject\.cache\Windows\SFX\FS_Concrete-Stone_04_5D095723.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Movement\Footsteps\Player_Footstep_Concrete_L\FS_Concrete-Stone_04		1320
+	341112781	DigitalBeeps05	Y:\Documents\Spring_2020\Videogames\MyFirstGameJam\My first game jam_WwiseProject\.cache\Windows\SFX\DigitalBeeps05_6315CD27.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Movement\Transporter\DigitalBeeps05		5379
+	413553582	Crouch_02	Y:\Documents\Spring_2020\Videogames\MyFirstGameJam\My first game jam_WwiseProject\.cache\Windows\SFX\Leather_Jacket_Movement_Rustle_Scrunches_OCP-1543-51_A182D32E.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Movement\Crouch\Crouch_02		15382
+	427218386	Player_Jump_04	Y:\Documents\Spring_2020\Videogames\MyFirstGameJam\My first game jam_WwiseProject\.cache\Windows\SFX\Player_Jump_04_6315CD27.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Movement\Jump\Player_Jump_04		2277
+	443619244	FS_Concrete-Stone_02	Y:\Documents\Spring_2020\Videogames\MyFirstGameJam\My first game jam_WwiseProject\.cache\Windows\SFX\FS_Concrete-Stone_02_137CD786.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Movement\Footsteps\Player_Footstep_Concrete_L\FS_Concrete-Stone_02		1738
+	445704252	Rifle_1	Y:\Documents\Spring_2020\Videogames\MyFirstGameJam\My first game jam_WwiseProject\.cache\Windows\SFX\Rifle_1_699CB28E.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Weapons\Pistol\Rifle_1		22975
+	485061077	DigitalBeeps06	Y:\Documents\Spring_2020\Videogames\MyFirstGameJam\My first game jam_WwiseProject\.cache\Windows\SFX\DigitalBeeps06_6315CD27.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Movement\Transporter\DigitalBeeps06		5559
+	485416450	Gun_Hit_Face_Pistol_Whip_Smack_OCP-1548-59 Pitched (+2_96) Gain +0_0dB [c1ca23da]	Y:\Documents\Spring_2020\Videogames\MyFirstGameJam\My first game jam_WwiseProject\.cache\Windows\SFX\Gun_Hit_Face_Pistol_Whip_Smack_OCP-1548-59 Pitched (+2.96) Gain +0.0dB [c1ca23da]_44363B1B.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Weapons\Pistol\Gun_Hit_Face_Pistol_Whip_Smack_OCP-1548-59 Pitched (+2_96) Gain +0_0dB [c1ca23da]		7163
+	489715854	Crouch_03	Y:\Documents\Spring_2020\Videogames\MyFirstGameJam\My first game jam_WwiseProject\.cache\Windows\SFX\Leather_Jacket_Movement_Rustle_Scrunches_OCP-1543-51_5E9D90D4.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Movement\Crouch\Crouch_03		15134
+	651055783	door_open_01	Y:\Documents\Spring_2020\Videogames\MyFirstGameJam\My first game jam_WwiseProject\.cache\Windows\SFX\door_open_004_2E60A6E9.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Ambiences_Emitters\Emitters\Doors\door_open_01		4654
+	669525631	FS_Concrete-Stone_03	Y:\Documents\Spring_2020\Videogames\MyFirstGameJam\My first game jam_WwiseProject\.cache\Windows\SFX\FS_Concrete-Stone_03_F15A5837.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Movement\Footsteps\Player_Footstep_Concrete_L\FS_Concrete-Stone_03		970
+	686217796	FS_Concrete-Stone_01	Y:\Documents\Spring_2020\Videogames\MyFirstGameJam\My first game jam_WwiseProject\.cache\Windows\SFX\FS_Concrete-Stone_01_B5EFF088.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Movement\Footsteps\Player_Footstep_Concrete_R\FS_Concrete-Stone_01		1414
+	798608624	Bullet_Zap_01	Y:\Documents\Spring_2020\Videogames\MyFirstGameJam\My first game jam_WwiseProject\.cache\Windows\SFX\Bullet_Zap_01_6315CD27.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Weapons\Pistol\Bullet_Zap_01		5169
+	868296741	FS_Concrete-Stone_05	Y:\Documents\Spring_2020\Videogames\MyFirstGameJam\My first game jam_WwiseProject\.cache\Windows\SFX\FS_Concrete-Stone_05_23A7C4EC.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Movement\Footsteps\Player_Footstep_Concrete_L\FS_Concrete-Stone_05		1960
+	876384917	Crouch_04	Y:\Documents\Spring_2020\Videogames\MyFirstGameJam\My first game jam_WwiseProject\.cache\Windows\SFX\Leather_Jacket_Movement_Rustle_Scrunches_OCP-1543-51_93D55076.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Movement\Crouch\Crouch_04		9658
+	896850553	Player_Jump_01	Y:\Documents\Spring_2020\Videogames\MyFirstGameJam\My first game jam_WwiseProject\.cache\Windows\SFX\Player_Jump_01_6315CD27.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Movement\Jump\Player_Jump_01		2165
+	917472053	door_open_004	Y:\Documents\Spring_2020\Videogames\MyFirstGameJam\My first game jam_WwiseProject\.cache\Windows\SFX\door_open_004_B05EB4B9.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Ambiences_Emitters\Emitters\Doors\door_open_004		9050
+	959003227	Electrical_Hum_01	Y:\Documents\Spring_2020\Videogames\MyFirstGameJam\My first game jam_WwiseProject\.cache\Windows\SFX\Electrical_Hum_01_8993340B.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Ambiences_Emitters\Emitters\Electrical_Hum_01		81858
+	981742633	FS_Concrete-Stone_01	Y:\Documents\Spring_2020\Videogames\MyFirstGameJam\My first game jam_WwiseProject\.cache\Windows\SFX\FS_Concrete-Stone_01_6B489653.wem		\Actor-Mixer Hierarchy\Default Work Unit\World\Player\Player\Movement\Footsteps\Player_Footstep_Concrete_L\FS_Concrete-Stone_01		2308
+

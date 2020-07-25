@@ -8,16 +8,22 @@ public class Player_shoot : MonoBehaviour
     public float Range = 5f;
     public GameObject muzzle;
     public float damage = 10f;
-
     public ParticleSystem trail;
 
     private Enemy_health enemy_health;
+
+
+    [Header("Wwise")]
+    public AK.Wwise.Event PlayerIsShooting;
+    public float timeBetweenShots = 0.1f;
+
     void FixedUpdate()
     {
         if (Input.GetMouseButton(0))
         {
             Cast();
             trail.Play();
+            PlayerIsShooting.Post(gameObject);
         }
         else if (Input.GetMouseButtonUp(0))
         {

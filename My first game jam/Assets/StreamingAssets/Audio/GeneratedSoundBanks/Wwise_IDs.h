@@ -16,6 +16,7 @@ namespace AK
         static const AkUniqueID AMBIENT_ROOFLIGHT = 1917408972U;
         static const AkUniqueID CROUCH = 2655407367U;
         static const AkUniqueID DOOR_OPEN = 535830432U;
+        static const AkUniqueID FIRE_PISTOL_PLAYER = 1828056235U;
         static const AkUniqueID FOOTSTEPS_L = 84044443U;
         static const AkUniqueID FOOTSTEPS_R = 84044421U;
         static const AkUniqueID JUMP = 3833651337U;
@@ -33,6 +34,7 @@ namespace AK
             {
                 static const AkUniqueID LEVEL1 = 2678230382U;
                 static const AkUniqueID LEVEL2 = 2678230381U;
+                static const AkUniqueID MENUS = 2604644515U;
                 static const AkUniqueID NONE = 748895195U;
             } // namespace STATE
         } // namespace MUSICLEVELS
