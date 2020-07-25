@@ -16,6 +16,7 @@ namespace AK
         static const AkUniqueID AMBIENT_ROOFLIGHT = 1917408972U;
         static const AkUniqueID CROUCH = 2655407367U;
         static const AkUniqueID DOOR_OPEN = 535830432U;
+        static const AkUniqueID FIRE_PISTOL_PLAYER = 1828056235U;
         static const AkUniqueID FOOTSTEPS_L = 84044443U;
         static const AkUniqueID FOOTSTEPS_R = 84044421U;
         static const AkUniqueID JUMP = 3833651337U;

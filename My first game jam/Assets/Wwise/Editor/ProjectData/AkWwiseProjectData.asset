@@ -76,7 +76,7 @@ MonoBehaviour:
     ParentPath: Ambient
     guid: d4fa4c6dc3d98b4090405769662a22ee
     GuidInternal: 
-    m_lastTime: -8586060346464775808
+    m_lastTime: -8586059058104775808
     List:
     - name: Ambient_Rooflight
       guid: 1625b4b05eb7944596e741aa32a1ed09
@@ -128,7 +128,7 @@ MonoBehaviour:
     ParentPath: MainCharacter
     guid: 1e09873c3b5393489543e91b291c4c24
     GuidInternal: 
-    m_lastTime: -8586060691984775808
+    m_lastTime: -8586059051124775808
     List:
     - name: Crouch
       guid: 26c37b074cdd074c9e7c4f93fd38130d
@@ -144,6 +144,20 @@ MonoBehaviour:
       maxAttenuation: 150
       maxDuration: 3.311708
       minDuration: 0.948234
+    - name: Fire_Pistol_Player
+      guid: 0e2f86a7e5d63f468167b5668b243b64
+      id: 1828056235
+      PathAndIcons:
+      - ElementName: MainCharacter
+        ObjectType: 12
+      - ElementName: Weapons
+        ObjectType: 4
+      - ElementName: Fire_Pistol_Player
+        ObjectType: 3
+      Path: MainCharacter/Weapons/Fire_Pistol_Player
+      maxAttenuation: 7
+      maxDuration: 1.555556
+      minDuration: 1.555556
     - name: Footsteps_L
       guid: 760fc7ede02a90438a11a8100ebdaab6
       id: 84044443
@@ -230,6 +244,18 @@ MonoBehaviour:
       maxAttenuation: 150
       maxDuration: 0.327151
       minDuration: 0.220442
+    - name: Weapons
+      guid: b26d67495f05334c9288d4e4e20c8579
+      id: 1467963052
+      PathAndIcons:
+      - ElementName: MainCharacter
+        ObjectType: 12
+      - ElementName: Weapons
+        ObjectType: 4
+      Path: MainCharacter/Weapons
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
   - PhysicalPath: Events/Music.wwu
     ParentPath: Default Work Unit/Music
     guid: 279369222fcd7c4286bdf9cdff023ff0

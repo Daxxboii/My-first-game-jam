@@ -15,19 +15,6 @@
 			<ObjectPath>\SoundBanks\Default Work Unit\General</ObjectPath>
 			<ShortName>General</ShortName>
 			<Path>General.bnk</Path>
-		</SoundBank>
-		<SoundBank Id="1355168291" Language="SFX">
-			<ObjectPath>Init</ObjectPath>
-			<ShortName>Init</ShortName>
-			<Path>Init.bnk</Path>
-			<IncludedAuxBusses>
-				<AuxBus Id="1921000341" Name="Reverb_Footsteps" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb_Footsteps"/>
-			</IncludedAuxBusses>
-		</SoundBank>
-		<SoundBank Id="3991942870" Language="SFX">
-			<ObjectPath>\SoundBanks\Default Work Unit\Music</ObjectPath>
-			<ShortName>Music</ShortName>
-			<Path>Music.bnk</Path>
 			<IncludedEvents>
 				<Event Id="1917408972" Name="Ambient_Rooflight" ObjectPath="\Events\Ambient\General\Ambient_Rooflight" MaxAttenuation="7.000000" DurationType="Infinite">
 					<IncludedMemoryFiles>
@@ -36,9 +23,6 @@
 							<Path>SFX/Electrical_Hum_01_8993340B.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
-					<AuxBusSends>
-						<AuxBus Id="1921000341" Name="Reverb_Footsteps" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb_Footsteps"/>
-					</AuxBusSends>
 				</Event>
 				<Event Id="2655407367" Name="Crouch" ObjectPath="\Events\MainCharacter\Movement\Crouch" MaxAttenuation="150.000000" DurationType="OneShot" DurationMin="0.948234" DurationMax="3.311708">
 					<IncludedMemoryFiles>
@@ -59,9 +43,6 @@
 							<Path>SFX/Leather_Jacket_Movement_Rustle_Scrunches_OCP-1543-51_93D55076.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
-					<AuxBusSends>
-						<AuxBus Id="1921000341" Name="Reverb_Footsteps" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb_Footsteps"/>
-					</AuxBusSends>
 				</Event>
 				<Event Id="535830432" Name="Door_Open" ObjectPath="\Events\Ambient\General\Door_Open" DurationType="OneShot" DurationMin="0.357287" DurationMax="0.868017">
 					<IncludedMemoryFiles>
@@ -74,9 +55,22 @@
 							<Path>SFX/door_open_004_B05EB4B9.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
-					<AuxBusSends>
-						<AuxBus Id="1921000341" Name="Reverb_Footsteps" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb_Footsteps"/>
-					</AuxBusSends>
+				</Event>
+				<Event Id="1828056235" Name="Fire_Pistol_Player" ObjectPath="\Events\MainCharacter\Weapons\Fire_Pistol_Player" DurationType="OneShot" DurationMin="1.555556" DurationMax="1.555556">
+					<IncludedMemoryFiles>
+						<File Id="445704252" Language="SFX">
+							<ShortName>Rifle_1.wav</ShortName>
+							<Path>SFX/Rifle_1_699CB28E.wem</Path>
+						</File>
+						<File Id="485416450" Language="SFX">
+							<ShortName>Gun_Hit_Face_Pistol_Whip_Smack_OCP-1548-59 Pitched (+2.96) Gain +0.0dB [c1ca23da].wav</ShortName>
+							<Path>SFX/Gun_Hit_Face_Pistol_Whip_Smack_OCP-1548-59 Pitched (+2.96) Gain +0.0dB [c1ca23da]_44363B1B.wem</Path>
+						</File>
+						<File Id="798608624" Language="SFX">
+							<ShortName>Bullet_Zap_01.wav</ShortName>
+							<Path>SFX/Bullet_Zap_01_6315CD27.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
 				</Event>
 				<Event Id="84044443" Name="Footsteps_L" ObjectPath="\Events\MainCharacter\Movement\MC Footsteps\Footsteps_L" MaxAttenuation="150.000000" DurationType="OneShot" DurationMin="0.039116" DurationMax="0.195890">
 					<IncludedMemoryFiles>
@@ -101,9 +95,6 @@
 							<Path>SFX/FS_Concrete-Stone_01_6B489653.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
-					<AuxBusSends>
-						<AuxBus Id="1921000341" Name="Reverb_Footsteps" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb_Footsteps"/>
-					</AuxBusSends>
 				</Event>
 				<Event Id="84044421" Name="Footsteps_R" ObjectPath="\Events\MainCharacter\Movement\MC Footsteps\Footsteps_R" MaxAttenuation="150.000000" DurationType="OneShot" DurationMin="0.039116" DurationMax="0.129819">
 					<IncludedMemoryFiles>
@@ -128,9 +119,6 @@
 							<Path>SFX/FS_Concrete-Stone_05_23A7C4EC.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
-					<AuxBusSends>
-						<AuxBus Id="1921000341" Name="Reverb_Footsteps" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb_Footsteps"/>
-					</AuxBusSends>
 				</Event>
 				<Event Id="3833651337" Name="Jump" ObjectPath="\Events\MainCharacter\Movement\Jump" MaxAttenuation="150.000000" DurationType="OneShot" DurationMin="0.164169" DurationMax="0.208992">
 					<IncludedMemoryFiles>
@@ -151,10 +139,42 @@
 							<Path>SFX/Player_Jump_01_6315CD27.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
-					<AuxBusSends>
-						<AuxBus Id="1921000341" Name="Reverb_Footsteps" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb_Footsteps"/>
-					</AuxBusSends>
 				</Event>
+				<Event Id="2507361976" Name="Transporter_Beep" ObjectPath="\Events\MainCharacter\Movement\Transporter_Beep" MaxAttenuation="150.000000" DurationType="OneShot" DurationMin="0.220442" DurationMax="0.327151">
+					<IncludedMemoryFiles>
+						<File Id="156735400" Language="SFX">
+							<ShortName>DigitalBeeps11.wav</ShortName>
+							<Path>SFX/DigitalBeeps11_6315CD27.wem</Path>
+						</File>
+						<File Id="202305106" Language="SFX">
+							<ShortName>DigitalBeeps09.wav</ShortName>
+							<Path>SFX/DigitalBeeps09_6315CD27.wem</Path>
+						</File>
+						<File Id="341112781" Language="SFX">
+							<ShortName>DigitalBeeps05.wav</ShortName>
+							<Path>SFX/DigitalBeeps05_6315CD27.wem</Path>
+						</File>
+						<File Id="485061077" Language="SFX">
+							<ShortName>DigitalBeeps06.wav</ShortName>
+							<Path>SFX/DigitalBeeps06_6315CD27.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+		</SoundBank>
+		<SoundBank Id="1355168291" Language="SFX">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<IncludedAuxBusses>
+				<AuxBus Id="1921000341" Name="Reverb_Footsteps" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb_Footsteps"/>
+			</IncludedAuxBusses>
+		</SoundBank>
+		<SoundBank Id="3991942870" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\Music</ObjectPath>
+			<ShortName>Music</ShortName>
+			<Path>Music.bnk</Path>
+			<IncludedEvents>
 				<Event Id="3991942870" Name="Music" ObjectPath="\Events\Default Work Unit\Music\Music" DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="22042175" Language="SFX">
@@ -572,30 +592,10 @@
 								</SwitchContainer>
 							</Children>
 						</SwitchContainer>
+						<SwitchContainer SwitchValue="{87D17F77-2822-4C67-871A-CCA8B5F35453}">
+							<Children/>
+						</SwitchContainer>
 					</SwitchContainers>
-				</Event>
-				<Event Id="2507361976" Name="Transporter_Beep" ObjectPath="\Events\MainCharacter\Movement\Transporter_Beep" MaxAttenuation="150.000000" DurationType="OneShot" DurationMin="0.220442" DurationMax="0.327151">
-					<IncludedMemoryFiles>
-						<File Id="156735400" Language="SFX">
-							<ShortName>DigitalBeeps11.wav</ShortName>
-							<Path>SFX/DigitalBeeps11_6315CD27.wem</Path>
-						</File>
-						<File Id="202305106" Language="SFX">
-							<ShortName>DigitalBeeps09.wav</ShortName>
-							<Path>SFX/DigitalBeeps09_6315CD27.wem</Path>
-						</File>
-						<File Id="341112781" Language="SFX">
-							<ShortName>DigitalBeeps05.wav</ShortName>
-							<Path>SFX/DigitalBeeps05_6315CD27.wem</Path>
-						</File>
-						<File Id="485061077" Language="SFX">
-							<ShortName>DigitalBeeps06.wav</ShortName>
-							<Path>SFX/DigitalBeeps06_6315CD27.wem</Path>
-						</File>
-					</IncludedMemoryFiles>
-					<AuxBusSends>
-						<AuxBus Id="1921000341" Name="Reverb_Footsteps" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb_Footsteps"/>
-					</AuxBusSends>
 				</Event>
 			</IncludedEvents>
 			<StateGroups>
