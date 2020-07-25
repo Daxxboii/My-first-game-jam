@@ -380,8 +380,11 @@ MonoBehaviour:
     List: []
   ExpandedItems:
   - /My first game jam_WwiseProject
-  - /My first game jam_WwiseProject/States
-  - /My first game jam_WwiseProject/States/Default Work Unit
-  - /My first game jam_WwiseProject/States/Default Work Unit/MusicLevels
+  - /My first game jam_WwiseProject/Events
+  - /My first game jam_WwiseProject/Events/Ambient
+  - /My first game jam_WwiseProject/Events/Ambient/General
+  - /My first game jam_WwiseProject/Events/Default Work Unit
+  - /My first game jam_WwiseProject/Events/Default Work Unit/Music
+  - /My first game jam_WwiseProject/Events/MainCharacter
   autoPopulateEnabled: 1
   CurrentPluginConfig: 
