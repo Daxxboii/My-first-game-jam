@@ -8,6 +8,7 @@ TagManager:
   - Manager
   - Hud_holder
   - Ground
+  - Enemy
   layers:
   - Default
   - TransparentFX

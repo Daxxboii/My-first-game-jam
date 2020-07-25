@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Reflection;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class Player_health : MonoBehaviour
 {
@@ -30,5 +31,14 @@ public class Player_health : MonoBehaviour
     {
         health_slider.value = player_health;
         fill.color = health_color.Evaluate(player_health / health_slider.maxValue);
+        Die();
+    }
+
+    public void Die()
+    {
+        if (player_health <= 0)
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        }
     }
 }
