@@ -3,44 +3,34 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class Enemy_health : MonoBehaviour
+public class Enemylizdie : MonoBehaviour
 {
     public Enemy_details details;
     public Slider health_slider;
     public Gradient health_color;
     public Image fill;
-    public CapsuleCollider collider;
+
     [HideInInspector]
     public bool hit;
 
     [HideInInspector]
     public float health;
-    public Animator anim;
-    public Enemy_attack attack;
+  
 
-    private void Awake()
+    // Start is called before the first frame update
+    void Start()
     {
         health = details.health;
         health_slider.maxValue = health;
         health_slider.value = health;
-       
-        InvokeRepeating("Hit", 0.5f,0.5f);
-   }
+        InvokeRepeating("Hit", 0.5f, 0.5f);
+    }
 
     private void FixedUpdate()
     {
         health_slider.value = health;
         fill.color = health_color.Evaluate(health / health_slider.maxValue);
         Die();
-    }
-
-    public void Die()
-    {
-        if (health <= 0)
-        {
-            StartCoroutine(Fok());
-            health = 1f;
-        }
     }
 
     public void Hit()
@@ -50,20 +40,12 @@ public class Enemy_health : MonoBehaviour
             health -= 5f;
         }
     }
-    public IEnumerator Fok()
+
+    public void Die()
     {
-       
-            collider.enabled = false;
-            attack.Exit();
-            attack.enabled = false;
-
-            anim.SetBool("Attack", false);
-
-            anim.SetBool("Die", true);
-            yield return new WaitForSeconds(2);
-       
-        Destroy(gameObject);
-       
+        if (health <= 0)
+        {
+            Destroy(gameObject);
+        }
     }
-    
 }

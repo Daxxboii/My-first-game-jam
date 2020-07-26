@@ -11,7 +11,7 @@ public class Player_shoot : MonoBehaviour
     public ParticleSystem trail;
 
     private Enemy_health enemy_health;
-
+    private Enemylizdie enemy_health_1;
 
     [Header("Wwise")]
     public AK.Wwise.Event PlayerIsShooting;
@@ -28,6 +28,7 @@ public class Player_shoot : MonoBehaviour
         else if (Input.GetMouseButtonUp(0))
         {
             enemy_health.hit = false;
+            enemy_health_1.hit = false;
             trail.Stop();
         }
     }
@@ -42,7 +43,13 @@ public class Player_shoot : MonoBehaviour
             {
                 enemy_health = hit.transform.gameObject.GetComponent<Enemy_health>();
                 enemy_health.hit = true;
+               
 
+            }
+            if(hit.transform.gameObject.tag == "Enemy1")
+            {
+                enemy_health_1 = hit.transform.gameObject.GetComponent<Enemylizdie>();
+                enemy_health_1.hit = true;
             }
         }
     }

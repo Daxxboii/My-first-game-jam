@@ -5237,12 +5237,12 @@ GameObject:
   - component: {fileID: 6643895256442729017}
   - component: {fileID: 6643895256442729014}
   - component: {fileID: 6643895256442729018}
-  - component: {fileID: 6643895256442729021}
   - component: {fileID: 6292224286834915505}
   - component: {fileID: 7203951662729330644}
+  - component: {fileID: 1939126094}
   m_Layer: 0
   m_Name: Liz
-  m_TagString: Enemy
+  m_TagString: Enemy1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5341,55 +5341,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 88
   m_CollisionDetection: 2
---- !u!114 &6643895256442729021
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6643895256442729015}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6f88b872b0ecf3743ab33196be000a9f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  details: {fileID: 11400000, guid: 2f8c372f289083b439712532aeb848d6, type: 2}
-  health_slider: {fileID: 6292224286240538238}
-  health_color:
-    serializedVersion: 2
-    key0: {r: 1, g: 0, b: 0, a: 1}
-    key1: {r: 0, g: 1, b: 0.2829156, a: 1}
-    key2: {r: 0, g: 0, b: 0, a: 0}
-    key3: {r: 0, g: 0, b: 0, a: 0}
-    key4: {r: 0, g: 0, b: 0, a: 0}
-    key5: {r: 0, g: 0, b: 0, a: 0}
-    key6: {r: 0, g: 0, b: 0, a: 0}
-    key7: {r: 0, g: 0, b: 0, a: 0}
-    ctime0: 0
-    ctime1: 65535
-    ctime2: 0
-    ctime3: 0
-    ctime4: 0
-    ctime5: 0
-    ctime6: 0
-    ctime7: 0
-    atime0: 0
-    atime1: 65535
-    atime2: 0
-    atime3: 0
-    atime4: 0
-    atime5: 0
-    atime6: 0
-    atime7: 0
-    m_Mode: 0
-    m_NumColorKeys: 2
-    m_NumAlphaKeys: 2
-  fill: {fileID: 6292224286961791229}
-  collider: {fileID: 6643895256442729014}
-  hit: 0
-  health: 0
-  anim: {fileID: 5707055358134704675}
-  attack: {fileID: 0}
 --- !u!195 &6292224286834915505
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -5429,6 +5380,52 @@ MonoBehaviour:
   navmesh: {fileID: 6292224286834915505}
   range: 10
   Trail: {fileID: 718097953}
+--- !u!114 &1939126094
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6643895256442729015}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b2c6c1d52017b946a171dc735cec990, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  details: {fileID: 11400000, guid: 2f8c372f289083b439712532aeb848d6, type: 2}
+  health_slider: {fileID: 6292224286240538238}
+  health_color:
+    serializedVersion: 2
+    key0: {r: 1, g: 0, b: 0, a: 1}
+    key1: {r: 0, g: 1, b: 0.09811425, a: 1}
+    key2: {r: 0, g: 0, b: 0, a: 0}
+    key3: {r: 0, g: 0, b: 0, a: 0}
+    key4: {r: 0, g: 0, b: 0, a: 0}
+    key5: {r: 0, g: 0, b: 0, a: 0}
+    key6: {r: 0, g: 0, b: 0, a: 0}
+    key7: {r: 0, g: 0, b: 0, a: 0}
+    ctime0: 0
+    ctime1: 65535
+    ctime2: 0
+    ctime3: 0
+    ctime4: 0
+    ctime5: 0
+    ctime6: 0
+    ctime7: 0
+    atime0: 0
+    atime1: 65535
+    atime2: 0
+    atime3: 0
+    atime4: 0
+    atime5: 0
+    atime6: 0
+    atime7: 0
+    m_Mode: 0
+    m_NumColorKeys: 2
+    m_NumAlphaKeys: 2
+  fill: {fileID: 6292224286961791229}
+  hit: 0
+  health: 0
 --- !u!1001 &5951869289016567417
 PrefabInstance:
   m_ObjectHideFlags: 0

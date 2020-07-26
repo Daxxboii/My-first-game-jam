@@ -44,6 +44,7 @@ public class Player_health : MonoBehaviour
         if(hit == true)
         {
             player_health -= 10f;
+            hit = false;
         }
     }
     private void OnCollisionEnter(Collision collision)
