@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.15488794, g: 0.17667198, b: 0.18869118, a: 1}
+  m_IndirectSpecularColor: {r: 0.15488853, g: 0.17667249, b: 0.18869162, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -98,7 +98,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 0
+  m_UseShadowmask: 1
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -1504,7 +1504,9 @@ PrefabInstance:
       propertyPath: m_Name
       value: Main Camera
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 5648214294880629508, guid: c23cb8a9b0fc6b545b5f67a2efbca745, type: 3}
+    - {fileID: 5648214294880629509, guid: c23cb8a9b0fc6b545b5f67a2efbca745, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: c23cb8a9b0fc6b545b5f67a2efbca745, type: 3}
 --- !u!20 &1645208674 stripped
 Camera:

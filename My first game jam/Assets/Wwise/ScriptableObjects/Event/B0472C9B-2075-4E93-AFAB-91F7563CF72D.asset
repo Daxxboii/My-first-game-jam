@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9b36018e6b664d749310e84ca2994be, type: 3}
+  m_Name: B0472C9B-2075-4E93-AFAB-91F7563CF72D
+  m_EditorClassIdentifier: 
+  objectName: StopRewind
+  id: 602856348
+  guid: B0472C9B-2075-4E93-AFAB-91F7563CF72D

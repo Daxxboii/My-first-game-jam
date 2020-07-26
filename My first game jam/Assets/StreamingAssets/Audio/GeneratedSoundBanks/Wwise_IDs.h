@@ -20,7 +20,10 @@ namespace AK
         static const AkUniqueID FOOTSTEPS_L = 84044443U;
         static const AkUniqueID FOOTSTEPS_R = 84044421U;
         static const AkUniqueID JUMP = 3833651337U;
+        static const AkUniqueID LAVAMAN = 3552284417U;
         static const AkUniqueID MUSIC = 3991942870U;
+        static const AkUniqueID REWIND = 1673109572U;
+        static const AkUniqueID STOPREWIND = 602856348U;
         static const AkUniqueID TRANSPORTER_BEEP = 2507361976U;
     } // namespace EVENTS
 
@@ -34,6 +37,7 @@ namespace AK
             {
                 static const AkUniqueID LEVEL1 = 2678230382U;
                 static const AkUniqueID LEVEL2 = 2678230381U;
+                static const AkUniqueID LEVEL_3 = 1290008371U;
                 static const AkUniqueID MENUS = 2604644515U;
                 static const AkUniqueID NONE = 748895195U;
             } // namespace STATE
