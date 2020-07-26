@@ -6,11 +6,11 @@ State	ID	Name	State Group			Notes
 	655265632	Alive	PlayerLife			
 	748895195	None	PlayerLife			
 	2044049779	Dead	PlayerLife			
+	540301611	Lava	MusicLevels			
 	748895195	None	MusicLevels			
-	1290008371	Level_3	MusicLevels			
+	1413156513	Poison	MusicLevels			
 	2604644515	Menus	MusicLevels			
-	2678230381	Level2	MusicLevels			
-	2678230382	Level1	MusicLevels			
+	3762955427	Tutorial	MusicLevels			
 
 Audio Bus	ID	Name			Wwise Object Path	Notes
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	

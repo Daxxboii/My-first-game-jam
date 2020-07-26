@@ -51,7 +51,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 6e4296edd05357438498712ad2d03d23
     GuidInternal: 
-    m_lastTime: -8586058839404775808
+    m_lastTime: -8586058285134775808
     List:
     - name: General
       guid: 7e4d8cc1e6940944867453c81c4752cf
@@ -146,7 +146,7 @@ MonoBehaviour:
     ParentPath: MainCharacter
     guid: 1e09873c3b5393489543e91b291c4c24
     GuidInternal: 
-    m_lastTime: -8586058679674775808
+    m_lastTime: -8586058676874775808
     List:
     - name: Crouch
       guid: 26c37b074cdd074c9e7c4f93fd38130d
@@ -260,8 +260,22 @@ MonoBehaviour:
         ObjectType: 3
       Path: MainCharacter/Movement/Rewind
       maxAttenuation: 150
-      maxDuration: 1.767854
-      minDuration: 1.071417
+      maxDuration: -1
+      minDuration: -1
+    - name: StopRewind
+      guid: 9b2c47b07520934eafab91f7563cf72d
+      id: 602856348
+      PathAndIcons:
+      - ElementName: MainCharacter
+        ObjectType: 12
+      - ElementName: Movement
+        ObjectType: 4
+      - ElementName: StopRewind
+        ObjectType: 3
+      Path: MainCharacter/Movement/StopRewind
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
     - name: Transporter_Beep
       guid: 7798dfeebca4d54083a0391d792331ff
       id: 2507361976
@@ -320,7 +334,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: a5d151c23ed2374c9ba0b0aa67e157c5
     GuidInternal: 
-    m_lastTime: -8586058692734775808
+    m_lastTime: -8586058290934775808
     List:
     - name: MusicLevels
       guid: 84ec49a13bf8304aab405f7c0c18242e
@@ -332,23 +346,11 @@ MonoBehaviour:
         ObjectType: 9
       Path: Default Work Unit/MusicLevels
       values:
-      - name: Level_3
-        guid: e494ef19b8bd3544bf2aade976197d51
-        id: 1290008371
-        PathAndIcons:
-        - ElementName: Level_3
-          ObjectType: 8
-      - name: Level1
-        guid: 9cd02fe2f6af644fa0b22a5d78e00ab2
-        id: 2678230382
-        PathAndIcons:
-        - ElementName: Level1
-          ObjectType: 8
-      - name: Level2
+      - name: Lava
         guid: 43ca5b17675adb4ca1feb5b21cb8fc64
-        id: 2678230381
+        id: 540301611
         PathAndIcons:
-        - ElementName: Level2
+        - ElementName: Lava
           ObjectType: 8
       - name: Menus
         guid: 5dbee455b44f5443b107c0ba68dd97ec
@@ -361,6 +363,18 @@ MonoBehaviour:
         id: 748895195
         PathAndIcons:
         - ElementName: None
+          ObjectType: 8
+      - name: Poison
+        guid: e494ef19b8bd3544bf2aade976197d51
+        id: 1413156513
+        PathAndIcons:
+        - ElementName: Poison
+          ObjectType: 8
+      - name: Tutorial
+        guid: 9cd02fe2f6af644fa0b22a5d78e00ab2
+        id: 3762955427
+        PathAndIcons:
+        - ElementName: Tutorial
           ObjectType: 8
       ValueGuids: []
       ValueIcons: []
@@ -418,10 +432,5 @@ MonoBehaviour:
     List: []
   ExpandedItems:
   - /My first game jam_WwiseProject
-  - /My first game jam_WwiseProject/Events
-  - /My first game jam_WwiseProject/Events/Ambient
-  - /My first game jam_WwiseProject/Events/Ambient/General
-  - /My first game jam_WwiseProject/Events/MainCharacter
-  - /My first game jam_WwiseProject/Events/MainCharacter/Movement
   autoPopulateEnabled: 1
   CurrentPluginConfig: 

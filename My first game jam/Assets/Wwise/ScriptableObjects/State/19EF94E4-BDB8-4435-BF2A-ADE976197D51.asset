@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0151082688288445890a497e3bd265c3, type: 3}
   m_Name: 19EF94E4-BDB8-4435-BF2A-ADE976197D51
   m_EditorClassIdentifier: 
-  objectName: Level_3
-  id: 1290008371
+  objectName: Poison
+  id: 1413156513
   guid: 19EF94E4-BDB8-4435-BF2A-ADE976197D51
   WwiseStateGroupReference: {fileID: 11400000, guid: cfe4088c866934324a10e81a6acf0793,
     type: 2}
