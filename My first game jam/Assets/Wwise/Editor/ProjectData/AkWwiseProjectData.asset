@@ -51,7 +51,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: 6e4296edd05357438498712ad2d03d23
     GuidInternal: 
-    m_lastTime: -8586059571174775808
+    m_lastTime: -8586058839404775808
     List:
     - name: General
       guid: 7e4d8cc1e6940944867453c81c4752cf
@@ -124,11 +124,29 @@ MonoBehaviour:
     GuidInternal: 
     m_lastTime: -8586069388764775808
     List: []
+  - PhysicalPath: Events/Enemies.wwu
+    ParentPath: Enemies
+    guid: 81b3cb102463554dbcb235f7a1cc4dde
+    GuidInternal: 
+    m_lastTime: -8586058853844775808
+    List:
+    - name: LavaMan
+      guid: 427986c0e6119a4dbcef8b44e71ca8ed
+      id: 3552284417
+      PathAndIcons:
+      - ElementName: Enemies
+        ObjectType: 12
+      - ElementName: LavaMan
+        ObjectType: 3
+      Path: Enemies/LavaMan
+      maxAttenuation: 7
+      maxDuration: -1
+      minDuration: -1
   - PhysicalPath: Events/MainCharacter.wwu
     ParentPath: MainCharacter
     guid: 1e09873c3b5393489543e91b291c4c24
     GuidInternal: 
-    m_lastTime: -8586059051124775808
+    m_lastTime: -8586058679674775808
     List:
     - name: Crouch
       guid: 26c37b074cdd074c9e7c4f93fd38130d
@@ -155,7 +173,7 @@ MonoBehaviour:
       - ElementName: Fire_Pistol_Player
         ObjectType: 3
       Path: MainCharacter/Weapons/Fire_Pistol_Player
-      maxAttenuation: 7
+      maxAttenuation: 0
       maxDuration: 1.555556
       minDuration: 1.555556
     - name: Footsteps_L
@@ -230,6 +248,20 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: Rewind
+      guid: 3683451dc0e15a4c9cc999755698ec6d
+      id: 1673109572
+      PathAndIcons:
+      - ElementName: MainCharacter
+        ObjectType: 12
+      - ElementName: Movement
+        ObjectType: 4
+      - ElementName: Rewind
+        ObjectType: 3
+      Path: MainCharacter/Movement/Rewind
+      maxAttenuation: 150
+      maxDuration: 1.767854
+      minDuration: 1.071417
     - name: Transporter_Beep
       guid: 7798dfeebca4d54083a0391d792331ff
       id: 2507361976
@@ -260,7 +292,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit/Music
     guid: 279369222fcd7c4286bdf9cdff023ff0
     GuidInternal: 
-    m_lastTime: -8586066798934775808
+    m_lastTime: -8586059029574775808
     List:
     - name: Music
       guid: 3a452c017991a14d90b91d13aa6e7be7
@@ -288,7 +320,7 @@ MonoBehaviour:
     ParentPath: Default Work Unit
     guid: a5d151c23ed2374c9ba0b0aa67e157c5
     GuidInternal: 
-    m_lastTime: -8586059575324775808
+    m_lastTime: -8586058692734775808
     List:
     - name: MusicLevels
       guid: 84ec49a13bf8304aab405f7c0c18242e
@@ -300,6 +332,12 @@ MonoBehaviour:
         ObjectType: 9
       Path: Default Work Unit/MusicLevels
       values:
+      - name: Level_3
+        guid: e494ef19b8bd3544bf2aade976197d51
+        id: 1290008371
+        PathAndIcons:
+        - ElementName: Level_3
+          ObjectType: 8
       - name: Level1
         guid: 9cd02fe2f6af644fa0b22a5d78e00ab2
         id: 2678230382
@@ -383,8 +421,7 @@ MonoBehaviour:
   - /My first game jam_WwiseProject/Events
   - /My first game jam_WwiseProject/Events/Ambient
   - /My first game jam_WwiseProject/Events/Ambient/General
-  - /My first game jam_WwiseProject/Events/Default Work Unit
-  - /My first game jam_WwiseProject/Events/Default Work Unit/Music
   - /My first game jam_WwiseProject/Events/MainCharacter
+  - /My first game jam_WwiseProject/Events/MainCharacter/Movement
   autoPopulateEnabled: 1
   CurrentPluginConfig: 

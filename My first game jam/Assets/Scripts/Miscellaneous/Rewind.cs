@@ -9,6 +9,9 @@ public class Rewind : MonoBehaviour
     public int Frames_to_go_back;
     public Animator anim;
 
+    public AK.Wwise.Event playerRewind;
+    public AK.Wwise.Event stopPlayerRewind;
+
     private List<Vector3> positions;
     
 
@@ -25,10 +28,12 @@ public class Rewind : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Return))
         {
             StartRewind();
+            playerRewind.Post(gameObject);
         }
         if (Input.GetKeyUp(KeyCode.Return))
         {
             StopRewind();
+            stopPlayerRewind.Post(gameObject);
         }
 
 

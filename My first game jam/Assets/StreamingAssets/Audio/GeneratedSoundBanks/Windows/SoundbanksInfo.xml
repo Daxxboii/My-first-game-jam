@@ -23,6 +23,9 @@
 							<Path>SFX/Electrical_Hum_01_8993340B.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="1921000341" Name="Reverb_Footsteps" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb_Footsteps"/>
+					</AuxBusSends>
 				</Event>
 				<Event Id="2655407367" Name="Crouch" ObjectPath="\Events\MainCharacter\Movement\Crouch" MaxAttenuation="150.000000" DurationType="OneShot" DurationMin="0.948234" DurationMax="3.311708">
 					<IncludedMemoryFiles>
@@ -43,6 +46,9 @@
 							<Path>SFX/Leather_Jacket_Movement_Rustle_Scrunches_OCP-1543-51_93D55076.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="1921000341" Name="Reverb_Footsteps" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb_Footsteps"/>
+					</AuxBusSends>
 				</Event>
 				<Event Id="535830432" Name="Door_Open" ObjectPath="\Events\Ambient\General\Door_Open" DurationType="OneShot" DurationMin="0.357287" DurationMax="0.868017">
 					<IncludedMemoryFiles>
@@ -55,22 +61,32 @@
 							<Path>SFX/door_open_004_B05EB4B9.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="1921000341" Name="Reverb_Footsteps" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb_Footsteps"/>
+					</AuxBusSends>
 				</Event>
 				<Event Id="1828056235" Name="Fire_Pistol_Player" ObjectPath="\Events\MainCharacter\Weapons\Fire_Pistol_Player" DurationType="OneShot" DurationMin="1.555556" DurationMax="1.555556">
 					<IncludedMemoryFiles>
+						<File Id="57418381" Language="SFX">
+							<ShortName>CK_Blaster_Shot-226.wav</ShortName>
+							<Path>SFX/CK_Blaster_Shot-226_6315CD27.wem</Path>
+						</File>
 						<File Id="445704252" Language="SFX">
 							<ShortName>Rifle_1.wav</ShortName>
-							<Path>SFX/Rifle_1_699CB28E.wem</Path>
+							<Path>SFX/Rifle_1_37C9C281.wem</Path>
 						</File>
 						<File Id="485416450" Language="SFX">
 							<ShortName>Gun_Hit_Face_Pistol_Whip_Smack_OCP-1548-59 Pitched (+2.96) Gain +0.0dB [c1ca23da].wav</ShortName>
-							<Path>SFX/Gun_Hit_Face_Pistol_Whip_Smack_OCP-1548-59 Pitched (+2.96) Gain +0.0dB [c1ca23da]_44363B1B.wem</Path>
+							<Path>SFX/Gun_Hit_Face_Pistol_Whip_Smack_OCP-1548-59 Pitched (+2.96) Gain +0.0dB [c1ca23da]_BAAD1BDE.wem</Path>
 						</File>
 						<File Id="798608624" Language="SFX">
 							<ShortName>Bullet_Zap_01.wav</ShortName>
 							<Path>SFX/Bullet_Zap_01_6315CD27.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="1921000341" Name="Reverb_Footsteps" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb_Footsteps"/>
+					</AuxBusSends>
 				</Event>
 				<Event Id="84044443" Name="Footsteps_L" ObjectPath="\Events\MainCharacter\Movement\MC Footsteps\Footsteps_L" MaxAttenuation="150.000000" DurationType="OneShot" DurationMin="0.039116" DurationMax="0.195890">
 					<IncludedMemoryFiles>
@@ -95,6 +111,9 @@
 							<Path>SFX/FS_Concrete-Stone_01_6B489653.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="1921000341" Name="Reverb_Footsteps" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb_Footsteps"/>
+					</AuxBusSends>
 				</Event>
 				<Event Id="84044421" Name="Footsteps_R" ObjectPath="\Events\MainCharacter\Movement\MC Footsteps\Footsteps_R" MaxAttenuation="150.000000" DurationType="OneShot" DurationMin="0.039116" DurationMax="0.129819">
 					<IncludedMemoryFiles>
@@ -119,6 +138,9 @@
 							<Path>SFX/FS_Concrete-Stone_05_23A7C4EC.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="1921000341" Name="Reverb_Footsteps" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb_Footsteps"/>
+					</AuxBusSends>
 				</Event>
 				<Event Id="3833651337" Name="Jump" ObjectPath="\Events\MainCharacter\Movement\Jump" MaxAttenuation="150.000000" DurationType="OneShot" DurationMin="0.164169" DurationMax="0.208992">
 					<IncludedMemoryFiles>
@@ -139,7 +161,45 @@
 							<Path>SFX/Player_Jump_01_6315CD27.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="1921000341" Name="Reverb_Footsteps" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb_Footsteps"/>
+					</AuxBusSends>
 				</Event>
+				<Event Id="3552284417" Name="LavaMan" ObjectPath="\Events\Enemies\LavaMan" MaxAttenuation="7.000000" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="304657556" Language="SFX">
+							<ShortName>rocks stream down heavy 02 Pitched (+2.96) Gain +0.0dB [7e7b195].wav</ShortName>
+							<Path>SFX/rocks stream down heavy 02 Pitched (+2.96) Gain +0.0dB [7e7b195]_11303A31.wem</Path>
+						</File>
+						<File Id="520904576" Language="SFX">
+							<ShortName>rocks stream down heavy 02 Pitched (+2.96) Gain +0.0dB [7e7b195].wav</ShortName>
+							<Path>SFX/rocks stream down heavy 02 Pitched (+2.96) Gain +0.0dB [7e7b195]_DACD1C34.wem</Path>
+						</File>
+						<File Id="654355777" Language="SFX">
+							<ShortName>soil and dirt debris heavy 13 Gain +0.0dB [8ebed4e3].wav</ShortName>
+							<Path>SFX/soil and dirt debris heavy 13 Gain +0.0dB [8ebed4e3]_5E732CE8.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="1921000341" Name="Reverb_Footsteps" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb_Footsteps"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="1673109572" Name="Rewind" ObjectPath="\Events\MainCharacter\Movement\Rewind" MaxAttenuation="150.000000" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="94602931" Language="SFX">
+							<ShortName>Rewind2.wav</ShortName>
+							<Path>SFX/Rewind2_E5103014.wem</Path>
+						</File>
+						<File Id="686839146" Language="SFX">
+							<ShortName>Rewind.wav</ShortName>
+							<Path>SFX/Rewind_5F4E3685.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="1921000341" Name="Reverb_Footsteps" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb_Footsteps"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="602856348" Name="StopRewind" ObjectPath="\Events\MainCharacter\Movement\StopRewind" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="2507361976" Name="Transporter_Beep" ObjectPath="\Events\MainCharacter\Movement\Transporter_Beep" MaxAttenuation="150.000000" DurationType="OneShot" DurationMin="0.220442" DurationMax="0.327151">
 					<IncludedMemoryFiles>
 						<File Id="156735400" Language="SFX">
@@ -159,6 +219,9 @@
 							<Path>SFX/DigitalBeeps06_6315CD27.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="1921000341" Name="Reverb_Footsteps" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb_Footsteps"/>
+					</AuxBusSends>
 				</Event>
 			</IncludedEvents>
 		</SoundBank>
@@ -264,6 +327,10 @@
 						<File Id="331787506" Language="SFX">
 							<ShortName>Death.wav</ShortName>
 							<Path>SFX/Death_72728EC5.wem</Path>
+						</File>
+						<File Id="346214909" Language="SFX">
+							<ShortName>MFGJ_Menus-A2-Trumpet.wav</ShortName>
+							<Path>SFX/MFGJ_Menus-A2-Trumpet_3962E952.wem</Path>
 						</File>
 						<File Id="375651335" Language="SFX">
 							<ShortName>MFGJ_Menus-A-Horn.wav</ShortName>
@@ -592,8 +659,69 @@
 								</SwitchContainer>
 							</Children>
 						</SwitchContainer>
-						<SwitchContainer SwitchValue="{87D17F77-2822-4C67-871A-CCA8B5F35453}">
-							<Children/>
+						<SwitchContainer SwitchValue="{3D93AAE7-F3A9-45F9-8A51-A803A1BCECE4}">
+							<Children>
+								<SwitchContainer SwitchValue="{19EF94E4-BDB8-4435-BF2A-ADE976197D51}">
+									<Media>
+										<File Id="863391658"/>
+										<File Id="251857416"/>
+										<File Id="940831556"/>
+										<File Id="585824621"/>
+										<File Id="771319346"/>
+										<File Id="393409215"/>
+										<File Id="563237908"/>
+										<File Id="1063155371"/>
+										<File Id="557830291"/>
+										<File Id="1046303069"/>
+										<File Id="1006991332"/>
+										<File Id="952838122"/>
+										<File Id="833433290"/>
+										<File Id="184892434"/>
+										<File Id="966017587"/>
+										<File Id="219905661"/>
+										<File Id="556983877"/>
+										<File Id="637320628"/>
+										<File Id="181876398"/>
+										<File Id="22042175"/>
+										<File Id="529796273"/>
+										<File Id="952942362"/>
+										<File Id="654059143"/>
+										<File Id="438196659"/>
+										<File Id="319330156"/>
+										<File Id="113917619"/>
+										<File Id="52835095"/>
+										<File Id="203473090"/>
+										<File Id="155437375"/>
+										<File Id="560455462"/>
+										<File Id="747646879"/>
+										<File Id="633317938"/>
+										<File Id="1015506747"/>
+										<File Id="863391658"/>
+										<File Id="413411375"/>
+										<File Id="112919411"/>
+										<File Id="1069130785"/>
+										<File Id="941613740"/>
+										<File Id="717650774"/>
+										<File Id="949976413"/>
+										<File Id="307389220"/>
+										<File Id="665690802"/>
+										<File Id="1012238876"/>
+										<File Id="252548970"/>
+										<File Id="863391658"/>
+										<File Id="184892434"/>
+										<File Id="660196767"/>
+										<File Id="189543507"/>
+										<File Id="869220254"/>
+										<File Id="94385810"/>
+										<File Id="844262149"/>
+										<File Id="47362604"/>
+										<File Id="656943678"/>
+										<File Id="413411375"/>
+										<File Id="346214909"/>
+										<File Id="151820228"/>
+									</Media>
+								</SwitchContainer>
+							</Children>
 						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
@@ -612,6 +740,7 @@
 						<State Id="2678230382" Name="Level1" ObjectPath="\States\Default Work Unit\MusicLevels\Level1"/>
 						<State Id="2678230381" Name="Level2" ObjectPath="\States\Default Work Unit\MusicLevels\Level2"/>
 						<State Id="2604644515" Name="Menus" ObjectPath="\States\Default Work Unit\MusicLevels\Menus"/>
+						<State Id="1290008371" Name="Level_3" ObjectPath="\States\Default Work Unit\MusicLevels\Level_3"/>
 					</States>
 				</StateGroup>
 			</StateGroups>

@@ -38,6 +38,9 @@ public class Player_movement : MonoBehaviour
     public Animator Player_animator;
     private float Animation_state;
 
+    [Header("Wwise")]
+    public AK.Wwise.Event PlayerJumps;
+
 
     void Awake()
     {
@@ -94,6 +97,7 @@ public class Player_movement : MonoBehaviour
         {
             move.y = Mathf.Sqrt(move_details.Jump_force * move_details.Down_force * gravity);
             //Debug.Log("JUMP");
+            PlayerJumps.Post(gameObject);
         }
 
         //Crouch

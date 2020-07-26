@@ -10,6 +10,7 @@ State	ID	Name	State Group			Notes
 	748895195	None	PlayerLife			
 	2044049779	Dead	PlayerLife			
 	748895195	None	MusicLevels			
+	1290008371	Level_3	MusicLevels			
 	2604644515	Menus	MusicLevels			
 	2678230381	Level2	MusicLevels			
 	2678230382	Level1	MusicLevels			
@@ -37,6 +38,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	307389220	MFGJ_Menus-A2-HOrnsMelody	Y:\Documents\Spring_2020\Videogames\MyFirstGameJam\My first game jam_WwiseProject\.cache\Windows\SFX\MFGJ_Menus-A2-HOrnsMelody_72728EC5.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Music levels\Menus\Menus Bridge\MFGJ_Menus-A2-HOrnsMelody		485020
 	319330156	Level_2_A_Marcato	Y:\Documents\Spring_2020\Videogames\MyFirstGameJam\My first game jam_WwiseProject\.cache\Windows\SFX\Level_2_A_Marcato_72728EC5.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Music levels\Level II\Level_2_A\Level_2_A_Marcato		381124
 	331787506	Death	Y:\Documents\Spring_2020\Videogames\MyFirstGameJam\My first game jam_WwiseProject\.cache\Windows\SFX\Death_72728EC5.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Music levels\Death\Death		150344
+	346214909	MFGJ_Menus-A2-Trumpet	Y:\Documents\Spring_2020\Videogames\MyFirstGameJam\My first game jam_WwiseProject\.cache\Windows\SFX\MFGJ_Menus-A2-Trumpet_3962E952.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Music levels\Poison Level\Menus A-3\MFGJ_Menus-A2-Trumpet		326645
 	375651335	MFGJ_Menus-A-Horn	Y:\Documents\Spring_2020\Videogames\MyFirstGameJam\My first game jam_WwiseProject\.cache\Windows\SFX\MFGJ_Menus-A-Horn_72728EC5.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Music levels\Menus\Menus A-2\MFGJ_Menus-A-Horn		402782
 	393409215	Level1-Theme_Bass	Y:\Documents\Spring_2020\Videogames\MyFirstGameJam\My first game jam_WwiseProject\.cache\Windows\SFX\MFGJ_Level1-Theme_Bass2_140bpm_4-4_L16M_FCA1C42F.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Music levels\Level I\Level 1 Theme\Level1-Theme_Bass		220820
 	413411375	MFGJ_Intro_CymbalRoll_140bpm_4-4_L16M-P1	Y:\Documents\Spring_2020\Videogames\MyFirstGameJam\My first game jam_WwiseProject\.cache\Windows\SFX\Level 1 Intro - Default\MFGJ_Intro_CymbalRoll_140bpm_4-4_L16M-P1_33DDF687.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Music levels\Level I\Level 1 Intro - Default\MFGJ_Intro_CymbalRoll_140bpm_4-4_L16M-P1		118023
