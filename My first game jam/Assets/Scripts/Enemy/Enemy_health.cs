@@ -52,14 +52,17 @@ public class Enemy_health : MonoBehaviour
     }
     public IEnumerator Fok()
     {
-        collider.enabled = false;
-        attack.Exit();
-        attack.enabled = false;
+        if (details.type == Enemy_details.Type.shoot)
+        {
+            collider.enabled = false;
+            attack.Exit();
+            attack.enabled = false;
 
-        anim.SetBool("Attack", false);
-      
-        anim.SetBool("Die", true);
-        yield return new WaitForSeconds(2);
+            anim.SetBool("Attack", false);
+
+            anim.SetBool("Die", true);
+            yield return new WaitForSeconds(2);
+        }
         Destroy(gameObject);
        
     }

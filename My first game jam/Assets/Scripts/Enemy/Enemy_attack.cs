@@ -19,8 +19,7 @@ public class Enemy_attack : MonoBehaviour
 
 
 
-    public Transform muzzle = null;
-    public GameObject bullet = null;
+    
 
     private bool hit;
   
@@ -65,7 +64,8 @@ public class Enemy_attack : MonoBehaviour
 
     void Shoot()
     {
-        Instantiate(bullet, muzzle);
+        anim.SetBool("Attack", true);
+      
     }
 
     private void OnCollisionStay(Collision collision)

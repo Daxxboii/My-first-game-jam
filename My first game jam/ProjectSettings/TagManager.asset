@@ -9,6 +9,7 @@ TagManager:
   - Hud_holder
   - Ground
   - Enemy
+  - Bullet
   layers:
   - Default
   - TransparentFX
