@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 207cef7d90d93e14b8e682c11509ba53, type: 3}
   m_Name: Liz
   m_EditorClassIdentifier: 
-  health: 25
+  health: 50
   hit_damage: 0
   type: 1
   speed: 0.01

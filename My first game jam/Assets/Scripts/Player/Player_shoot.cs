@@ -12,7 +12,7 @@ public class Player_shoot : MonoBehaviour
 
     private Enemy_health enemy_health;
     private Enemylizdie enemy_health_1;
-
+    RaycastHit hit;
     [Header("Wwise")]
     public AK.Wwise.Event PlayerIsShooting;
     public float timeBetweenShots = 0.1f;
@@ -27,15 +27,21 @@ public class Player_shoot : MonoBehaviour
         }
         else if (Input.GetMouseButtonUp(0))
         {
-            enemy_health.hit = false;
-            enemy_health_1.hit = false;
+            if (hit.transform.gameObject.tag == "Enemy")
+            {
+                enemy_health.hit = false;
+            }
+            if (hit.transform.gameObject.tag == "Enemy1")
+            {
+                enemy_health_1.hit = false;
+            }
             trail.Stop();
         }
     }
 
     void Cast()
     {
-        RaycastHit hit;
+       
         if (Physics.Raycast(muzzle.transform.position, muzzle.transform.TransformDirection(Vector3.forward), out hit, Range))
         {
 
